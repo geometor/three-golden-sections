@@ -2,7 +2,7 @@ function hideAllElements() {
 
     tl.set($('.Line,.Point,.Circle,.Triangle,.Quadrilateral,.Segment,.Sector'), {
         autoAlpha: 0,
-    }, "+=3");
+    }, "0");
 
 
 }

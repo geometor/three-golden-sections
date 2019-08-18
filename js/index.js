@@ -3,7 +3,7 @@ var tl ;
 $( document ).ready(function() {
     console.log( "ready!" );
     main();
-
+    // tl.stop();
     // tl.timeScale(2);
     // tl.play();
     // tl.tweenFromTo( fromThisLabel, toThisLabel );
