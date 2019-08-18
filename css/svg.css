@@ -29,7 +29,7 @@ svg > * {
     fill: #999;
     stroke: #999;
     fill-opacity: 0.2;
-    stroke-width: 4px;
+    stroke-width: 1;
 }
 
 .Quadrilateral {
@@ -79,7 +79,7 @@ svg > * {
 
 .Sector {
     fill-opacity: 0.6;
-    stroke-width: 4;
+    stroke-width: 1;
 }
 
 .Sector.s03,
@@ -91,7 +91,7 @@ svg > * {
     fill: #999;
     fill-opacity: 1;
     stroke: #000;
-    stroke-width: .2;
+    stroke-width: 1;
     stroke-opacity: 1;
 }
 
@@ -124,8 +124,8 @@ svg > * {
 }
 
 .s04 {
-    fill: #66E;
-    stroke: #66E;
+    fill: #C00;
+    stroke: #C00;
 }
 
 .s05 {

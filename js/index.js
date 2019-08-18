@@ -5,7 +5,7 @@ $( document ).ready(function() {
     main();
     // tl.stop();
     // tl.timeScale(2);
-    // tl.play();
+    tl.play();
     // tl.tweenFromTo( fromThisLabel, toThisLabel );
 
 });
@@ -19,11 +19,6 @@ function main() {
 
   hideAllElements();
 
-  // tl.addPause("wait");
-
-  // animateLogo();
-
-  // tl.addPause("logoEnd");
 
   hideElements(".logo");
 
@@ -47,8 +42,12 @@ function main() {
 
 
   sweepRadius("#c00aw", "#Q1"); //vesica piseces
+  unStrokeLine("#Q1");
+  strokeLineReverse("#Q1");
+
   sweepRadius("#c00ae", "#Q1");
   // tl.addPause("vesica");
+  unStrokeLine("#Q1");
 
   setPoint(".Point.s001");
 
@@ -60,29 +59,44 @@ function main() {
 
   zoomToElement(".view02", 50);
 
-
+  strokeLine("#r00a");
   sweepRadius("#c00bw", "#r00a"); //unit 2 circles
+  unStrokeLine("#r00a");
+
+  strokeLine("#r00b");
   sweepRadius("#c00be", "#r00b");
+  unStrokeLine("#r00b");
 
   setPoint(["#g002n", "#g002s"]); //g section 01
-  strokeLine(".Segment.s001");
 
+  // first golden section
+  strokeLine("#g001a2");
+  strokeLine("#g001b");
+  strokeLine("#g001a1");
   // tl.addPause("g01");
 
 
 
   //zoom in
-  tl.to("#drawing", 1, {
-    attr: {
-      viewBox: '520 215 400 400',
-      delay: 3,
-    }
-  });
+  // tl.to("#drawing", 1, {
+  //   attr: {
+  //     viewBox: '520 215 400 400',
+  //     delay: 3,
+  //   }
+  // });
+  zoomToElement(".view01", 50);
+
   hideElements(".Segment.s001");
 
 
   //root 3 *******************
 
+  var set1 = [
+    "#i02ae",
+    "#i02aw",
+    "#i02be",
+    "#i02bw",
+  ];
 
   strokeLine("#i02ae"); //trilateral lines
   strokeLine("#i02aw");
@@ -91,7 +105,7 @@ function main() {
 
   setPoint(".Point.s009");
 
-  setCircle("#y3n"); //polygon
+  setPolygon("#y3n"); //polygon
 
   strokeLine("#i04ae"); //diagonals
   strokeLine("#i04aw");
@@ -101,12 +115,17 @@ function main() {
   setPoint("#p015n"); //circumcenter
   // setPoint("#p015s");
 
+  strokeLine("#r04an");
   sweepRadius("#c04an", "#r04an"); //circumcircles
   // sweepRadius("#c04as", "#r04as");
+  unStrokeLine("#r04an");
+
 
   setPoint("#g003w", "begin"); //g section 02
   setPoint("#g003e");
-  strokeLine(".Segment.s002");
+  strokeLine("#g002a2");
+  strokeLine("#g002b");
+  strokeLine("#g002a1");
   // tl.addPause("g02.r3");
 
   var removeSet = [
@@ -128,6 +147,9 @@ function main() {
 
   //root 5 ************
 
+  zoomToElement(".view03", 50);
+
+
   sweepRadius("#c00cw", "#r00b"); //unit 2 circles
   sweepRadius("#c00ce", "#r00a");
 
@@ -139,13 +161,18 @@ function main() {
   strokeLine("#i00an"); //horizontal unit above baseline
   strokeLine("#i00as");
 
-  setCircle("#y4n"); //squares
-  setCircle("#y4s");
+  setPolygon("#y4n"); //squares
+  setPolygon("#y4s");
 
   strokeLine("#i03ae"); //diagonal
-  sweepRadius("#c03a", "#r03a"); //root 5 circle
 
-  setLine(".Segment.s002"); //g section root 5
+  strokeLine("#r03a"); //radius
+  sweepRadius("#c03a", "#r03a"); //root 5 circle
+  unStrokeLine("#r03a"); //radius
+
+  strokeLine("#g002a2");
+  strokeLine("#g002b");
+  strokeLine("#g002a1");
 
   // tl.addPause("g02.r5");
 
@@ -164,24 +191,30 @@ function main() {
   setPoint("#p016e");
   setPoint("#p018n");
 
-  setCircle("#y4ds"); //diamond
+  setPolygon("#y4ds"); //diamond
 
+  strokeLine("#r06an")
   sweepRadius("#c06an", "#r06an"); //root 5 circle
+  unStrokeLine("#r06an")
 
-  setLine(".Segment.s002"); //g section root 2
+  strokeLine("#g002a2");
+  strokeLine("#g002b");
+  strokeLine("#g002a1");
 
   // tl.addPause("g02.r2");
 
   //pull back view
-  tl.to(
-    "#drawing",
-    1, {
-      attr: {
-        viewBox: '100 100 1240 630',
-        delay: 2
-      }
-    }
-  );
+  // tl.to(
+  //   "#drawing",
+  //   1, {
+  //     attr: {
+  //       viewBox: '100 100 1240 630',
+  //       delay: 2
+  //     }
+  //   }
+  // );
+
+  zoomToElement(".view03", 50);
 
   //root 5 review ************
 
@@ -191,7 +224,9 @@ function main() {
   strokeLine("#i03ae"); //diagonal
   sweepRadius("#c03a", "#r03a"); //root 5 circle
 
-  setLine(".Segment.s002"); //g section root 2
+  strokeLine("#g002a2");
+  strokeLine("#g002b");
+  strokeLine("#g002a1");
 
 
 
@@ -227,9 +262,9 @@ function main() {
   //tl.to( ["#c04an", "#c03a", "#c06an"], 2, { strokeWidth: 4 } ); //highlight circles
   //tl.to( ["#c04an", "#c03a", "#c06an"], 2, { strokeWidth: 1 } ); //highlight circles
 
-  setCircle("#s03a"); //sectors
-  setCircle("#s04an_2"); //sectors
-  setCircle("#s05c"); //sectors
+  setPolygon("#s03a"); //sectors
+  setPolygon("#s04an_2"); //sectors
+  setPolygon("#s05c"); //sectors
 
   //console.log( $("#drawing")[0].innerHTML );
 

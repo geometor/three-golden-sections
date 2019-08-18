@@ -45,7 +45,7 @@ function strokeLine(id) {
         }
     ).fromTo(
         id,
-        1, {
+        .5, {
             strokeDasharray: len + " " + len,
             strokeDashoffset: len + 1,
 
@@ -64,9 +64,15 @@ function unStrokeLine(id) {
         id,
         1,  {
             scale: 1,
-            autoAlpha: 0,
             strokeDasharray: len + " " + len,
             strokeDashoffset: len + 1,
+            ease: Power2.easeOut,
+
+        }
+    ).to(
+        id,
+        0, {
+            autoAlpha: 0,
         }
     );
 }
@@ -138,6 +144,22 @@ function setCircle(id) {
     );
 }
 
+function setPolygon(id) {
+    tl.fromTo(
+        id,
+        .5, {
+            autoAlpha: 1,
+            scale: 0,
+            transformOrigin: "50% 50%",
+        }, {
+            autoAlpha: 1,
+            scale: 1,
+            fillOpacity: .2,
+            transformOrigin: "50% 50%",
+        }
+    );
+}
+
 function sweepRadius(circleId, radiusId) {
     var circle = $(circleId);
     var len = $(circleId).get(0).getTotalLength();
@@ -193,6 +215,7 @@ function hideElements(id) {
         id,
         1, {
             opacity: .2,
+            fillOpacity: 0,
 
 
         }, .1
