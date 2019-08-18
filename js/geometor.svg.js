@@ -48,11 +48,10 @@ function strokeLine(id) {
         1, {
             strokeDasharray: len + " " + len,
             strokeDashoffset: len + 1,
-            transformOrigin: "50% 50%",
+
         }, {
             strokeDasharray: len + " " + len,
             strokeDashoffset: 0,
-            transformOrigin: "50% 50%",
             ease: Power2.easeOut,
         }
     );
@@ -61,20 +60,13 @@ function strokeLine(id) {
 function unStrokeLine(id) {
     var len = $(id).get(0).getTotalLength();
 
-    tl.fromTo(
+    tl.to(
         id,
-        1, {
-            scale: 1,
-            autoAlpha: 1,
-            strokeDasharray: len + " " + len,
-            strokeDashoffset: 0,
-            transformOrigin: "50% 50%",
-        }, {
+        1,  {
             scale: 1,
             autoAlpha: 0,
             strokeDasharray: len + " " + len,
             strokeDashoffset: len + 1,
-            transformOrigin: "50% 50%",
         }
     );
 }
@@ -158,15 +150,15 @@ function sweepRadius(circleId, radiusId) {
 
     // console.log(center);
 
-    if (radiusId) {
-        strokeLine(radiusId);
-        tl.to(radiusId, 1, {
-            rotation: 360,
-            svgOrigin: center,
-            ease: Expo.easeInOut
-        });
-        timeOffset = "-=1";
-    }
+    // if (radiusId) {
+    //     strokeLine(radiusId);
+    //     tl.to(radiusId, 1, {
+    //         rotation: 360,
+    //         svgOrigin: center,
+    //         ease: Expo.easeInOut
+    //     });
+    //     timeOffset = "-=1";
+    // }
 
     tl.fromTo(
         circleId,
@@ -182,15 +174,15 @@ function sweepRadius(circleId, radiusId) {
             scale: 1,
             strokeWidth: 2,
             strokeDasharray: len + " " + len,
-            strokeDashoffset: 0
+            strokeDashoffset: 0,
             ease: Expo.easeInOut,
         }, timeOffset
     );
 
-    if (radiusId) {
-        hideElements(radiusId);
-        // unStrokeLine(radiusId);
-    }
+    // if (radiusId) {
+    //     unStrokeLine(radiusId);
+    //     // unStrokeLine(radiusId);
+    // }
     tl.to(circleId, .5, {
         strokeWidth: .5
     }, "-=1")
@@ -200,9 +192,9 @@ function hideElements(id) {
     tl.staggerTo(
         id,
         1, {
-            autoAlpha: 0,
-            scale: 0,
-            // transformOrigin: "50% 50%",
+            opacity: .2,
+
+
         }, .1
     );
 

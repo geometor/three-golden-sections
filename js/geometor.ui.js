@@ -1,5 +1,6 @@
 
 var tlMenu = new TimelineMax();
+
 //move menu on screen
 tlMenu.from("#menu", 1.5, {autoAlpha: 0, left: -300});
 tlMenu.pause();
