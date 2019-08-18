@@ -1,0 +1,58 @@
+<script type="text/javascript" src="../build/javascript-cas.js"></script>
+<!-- <script type="text/javascript" src="extensions/M.Interval.js"></script> -->
+<script>
+function log(math) {
+	var url = math.imageURL();
+	var img = new Image();
+	img.src = url;
+	document.body.appendChild(img);
+	document.body.appendChild(document.createElement("br"));
+}
+function watchObject(obj) {
+	var keys = Object.keys(obj);
+	var n = {};
+	keys.forEach(function (key) {
+		n.__defineGetter__(key, function () {
+			console.warn('Request key: ', key);
+			debugger;
+			return obj[key];
+		});
+		n.__defineSetter__(key, function (val) {
+			console.warn('Set key: ', key);
+			debugger;
+			return obj[key] = val;
+		})
+	});
+	if(obj.__proto__ !== Object.prototype) {
+		n.__proto__ = watchObject(obj.__proto__)
+	}
+	return n;
+}
+var c = new M.Context();
+M.Expression.prototype.glsl = function () {
+	return this.s('x-shader/x-fragment').s;
+}
+c.x = M('x', c);
+c.y = M('y', c);
+c.z = M('z', c);
+c.r = M('(x,y,z)', c);
+c.nabla = M('\\frac{d}{dr}', c);
+
+M.Expression.prototype.tree = function () {
+	return this;
+};
+M.Expression.NumericalReal.prototype.tree = function () {
+	return this.value;
+};
+M.Expression.Symbol.prototype.tree = function () {
+	return this.symbol;
+}
+function tree(x) {
+	return x.tree();
+}
+M.Expression.List.Real.prototype.tree = function () {
+	return [this.operator].concat(Array.prototype.map.call(this, tree));
+};
+var tests = ["\\frac{d}{dx}\\sin2x", "\\frac{d}{dx}x^2"]
+console.log(M('\\sqrt{2} x'));
+</script>

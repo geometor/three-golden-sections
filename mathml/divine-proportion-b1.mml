@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mtable>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mfrac>
+       <mi>a</mi>
+       <mi>b</mi>
+      </mfrac>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mi>b</mi>
+       <mrow>
+        <mi>a</mi>
+        <mo stretchy="false">+</mo>
+        <mi>b</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mstyle color="green">
+      <mo stretchy="false">⋯</mo>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mrow>
+       <mi>a</mi>
+       <mo stretchy="false">=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mi>;</mi>
+      <mrow>
+       <mi>b</mi>
+       <mo stretchy="false">=</mo>
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mfrac>
+       <mn>1</mn>
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mfrac>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+       <mrow>
+        <mstyle color="fuchsia">
+         <mi mathvariant="normal">ϕ</mi>
+        </mstyle>
+        <mo stretchy="false">+</mo>
+        <mn>1</mn>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mstyle color="fuchsia">
+         <mi mathvariant="normal">ϕ</mi>
+        </mstyle>
+        <mo stretchy="false">+</mo>
+        <mn>1</mn>
+       </mrow>
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mfrac>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+       <mn>1</mn>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mrow>
+        <mstyle color="fuchsia">
+         <mi mathvariant="normal">ϕ</mi>
+        </mstyle>
+        <mo stretchy="false">+</mo>
+        <mn>1</mn>
+       </mrow>
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <msup>
+         <mi mathvariant="normal">ϕ</mi>
+         <mn>2</mn>
+        </msup>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <mrow>
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+       <mo stretchy="false">+</mo>
+       <mn>1</mn>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <msqrt>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <mstyle color="fuchsia">
+         <mi mathvariant="normal">ϕ</mi>
+        </mstyle>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <msqrt>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <msqrt>
+         <mrow>
+          <mn>1</mn>
+          <mo stretchy="false">+</mo>
+          <mstyle color="fuchsia">
+           <mi mathvariant="normal">ϕ</mi>
+          </mstyle>
+         </mrow>
+        </msqrt>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <msqrt>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <msqrt>
+         <mrow>
+          <mn>1</mn>
+          <mo stretchy="false">+</mo>
+          <msqrt>
+           <mrow>
+            <mn>1</mn>
+            <mo stretchy="false">+</mo>
+            <mstyle color="fuchsia">
+             <mi mathvariant="normal">ϕ</mi>
+            </mstyle>
+           </mrow>
+          </msqrt>
+         </mrow>
+        </msqrt>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <msqrt>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <msqrt>
+         <mrow>
+          <mn>1</mn>
+          <mo stretchy="false">+</mo>
+          <msqrt>
+           <mrow>
+            <mn>1</mn>
+            <mo stretchy="false">+</mo>
+            <msqrt>
+             <mrow>
+              <mn>1</mn>
+              <mo stretchy="false">+</mo>
+              <mstyle color="fuchsia">
+               <mi mathvariant="normal">ϕ</mi>
+              </mstyle>
+             </mrow>
+            </msqrt>
+           </mrow>
+          </msqrt>
+         </mrow>
+        </msqrt>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <msqrt>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <msqrt>
+         <mrow>
+          <mn>1</mn>
+          <mo stretchy="false">+</mo>
+          <msqrt>
+           <mrow>
+            <mn>1</mn>
+            <mo stretchy="false">+</mo>
+            <msqrt>
+             <mrow>
+              <mn>1</mn>
+              <mo stretchy="false">+</mo>
+              <msqrt>
+               <mrow>
+                <mn>1</mn>
+                <mo stretchy="false">+</mo>
+                <mstyle color="fuchsia">
+                 <mi mathvariant="normal">ϕ</mi>
+                </mstyle>
+               </mrow>
+              </msqrt>
+             </mrow>
+            </msqrt>
+           </mrow>
+          </msqrt>
+         </mrow>
+        </msqrt>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <msqrt>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <msqrt>
+         <mrow>
+          <mn>1</mn>
+          <mo stretchy="false">+</mo>
+          <msqrt>
+           <mrow>
+            <mn>1</mn>
+            <mo stretchy="false">+</mo>
+            <msqrt>
+             <mrow>
+              <mn>1</mn>
+              <mo stretchy="false">+</mo>
+              <msqrt>
+               <mrow>
+                <mn>1</mn>
+                <mo stretchy="false">+</mo>
+                <msqrt>
+                 <mrow>
+                  <mn>1</mn>
+                  <mo stretchy="false">+</mo>
+                  <mstyle color="fuchsia">
+                   <mi mathvariant="normal">ϕ</mi>
+                  </mstyle>
+                 </mrow>
+                </msqrt>
+               </mrow>
+              </msqrt>
+             </mrow>
+            </msqrt>
+           </mrow>
+          </msqrt>
+         </mrow>
+        </msqrt>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+  </mtable>
+  <annotation encoding="StarMath 5.0">newline
+{  
+	{a} over {b} = { b } over { a + b } 
+}newline 
+
+
+newline
+color green { dotsaxis } newline
+newline
+
+{  
+	{a} = 1 ; b = color magenta {%phi}
+}newline 
+
+newline
+{ 
+	{1} over {color magenta {%phi}}} 
+	= 
+	{ color magenta {%phi} } over { color magenta {%phi} + 1 
+}newline 
+
+newline
+{ 
+	{ color magenta {%phi} + 1 } over {color magenta {%phi}} 
+	= 
+	{ color magenta {%phi} } over { 1 } 
+}newline 
+
+newline
+
+{
+	size 21 { color magenta {%phi} }
+	 = 
+	{ color magenta {%phi} + 1 } 
+	over 
+	{color magenta {%phi}} 
+ } newline
+
+newline
+
+{
+	size 21 { color magenta {%phi}^{2} }
+	 = 
+	{ color magenta {%phi} + 1 } 
+ } newline
+
+
+
+newline
+{
+	size 21 { color magenta {%phi} }
+	 = 
+	 sqrt{
+		{ 1 + color magenta {%phi}  } 
+	 }
+ } newline
+ 
+
+
+newline
+{
+	size 21 { color magenta {%phi} }
+	 = 
+	 sqrt{
+		{ 1 + sqrt{
+				{ 1 + color magenta {%phi}  } 
+	 		}
+	   } 
+	 }
+ } newline newline
+
+
+
+{
+	size 21 { color magenta {%phi} }
+	= 
+	sqrt{ 1 + sqrt{ 1 + sqrt{ 1 + color magenta {%phi} } } }
+} newline newline
+
+{
+	size 21 { color magenta {%phi} }
+	= 
+	sqrt{ 1 + sqrt{ 1 + sqrt{ 1 + sqrt{ 1 + color magenta {%phi} } } } }
+} newline newline
+
+{
+	size 21 { color magenta {%phi} }
+	= 
+	sqrt{ 1 + sqrt{ 1 + sqrt{ 1 + sqrt{ 1 +sqrt{ 1 + color magenta {%phi} } } } } }
+} newline newline
+
+{
+	size 21 { color magenta {%phi} }
+	= 
+	sqrt{ 1 + sqrt{ 1 + sqrt{ 1 + sqrt{ 1 +sqrt{ 1 + sqrt{ 1 + color magenta {%phi} } } } } } }
+} newline newline
+
+</annotation>
+ </semantics>
+</math>

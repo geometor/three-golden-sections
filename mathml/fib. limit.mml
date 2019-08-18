@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mrow>
+   <mrow>
+    <mi>ϕ</mi>
+    <mi>⩵</mi>
+    <mtext>lim</mtext>
+    <mi>ν</mi>
+    <mo stretchy="false">→</mo>
+    <mi>∞</mi>
+   </mrow>
+   <mrow/>
+   <mrow>
+    <mrow/>
+    <mi>⁢</mi>
+    <mtext/>
+    <mfrac>
+     <msub>
+      <mi>F</mi>
+      <mi>ν</mi>
+     </msub>
+     <msub>
+      <mi>F</mi>
+      <mrow>
+       <mi>ν</mi>
+       <mo stretchy="false">−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+    </mfrac>
+   </mrow>
+  </mrow>
+  <annotation encoding="StarMath 5.0">{{ϕ ⩵func &quot;lim&quot; ν  rightarrow  ∞} {} {{} ⁢ &quot;&quot; F_ν over F_{ν - 1}}}</annotation>
+ </semantics>
+</math>

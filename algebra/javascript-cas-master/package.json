@@ -1,0 +1,60 @@
+{
+  "name": "javascript-cas",
+  "version": "3.0.10",
+  "author": "Anthony Foster <hi@af.id.au>",
+  "main": "index.js",
+  "browserify": "dist/math.js",
+  "description": "Computer Algebra System",
+  "contributors": [
+    "aantthony <hi@af.id.au>"
+  ],
+  "scripts": {
+    "test": "[[ -z $TRAVIS_JOB_ID ]] && mocha --recursive || npm run travis",
+    "travis": "jscoverage lib lib-cov && JSCAS_COVERAGE=1 mocha --recursive -R mocha-lcov-reporter | coveralls && mocha --recursive",
+    "coverage": "jscoverage lib lib-cov && JSCAS_COVERAGE=1 mocha --recursive -R html-cov > lib-cov/test.html && open lib-cov/test.html",
+    "start": "node ./bin/javascript-cas",
+    "predeploy": "grunt",
+    "postdeploy": "echo This will be run after deploying the app"
+  },
+  "homepage": "http://af.id.au/javascript-cas/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aantthony/javascript-cas.git"
+  },
+  "keywords": [
+    "math",
+    "algebra",
+    "CAS",
+    "logic"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "jison": "~0.4.2",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-browserify2": "~0.1.6",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-contrib-jshint": "~0.4.3",
+    "mocha": "~1.12.0",
+    "should": "~1.2.2",
+    "sinon": "~1.7.3",
+    "mocha-lcov-reporter": "0.0.1",
+    "jscoverage": "~0.3.8",
+    "coveralls": "~2.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/aantthony/javascript-cas/issues"
+  },
+  "bin": {
+    "javascript-cas": "./bin/javascript-cas.js"
+  },
+  "dependencies": {},
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  }
+}

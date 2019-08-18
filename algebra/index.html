@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Untitled Document</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" type="text/css" href="katex/katex.min.css">
+
+
+</head>
+
+<body>
+<div id="myEquation"></div>
+<div id="mySolution"></div>
+
+<!--  <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>-->
+<!--  <script type="text/javascript"  src="jquery-3.1.1.min.js"></script>-->
+  <script type="text/javascript"  src="algebra-0.2.5.min.js"></script>
+  <script type="text/javascript"  src="coffeequate.min.js"></script>
+  <script src="katex/katex.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+
+	  var Expression = algebra.Expression;
+	  var Fraction = algebra.Fraction;
+	  var Equation = algebra.Equation;
+
+	function getExpr() {
+		var expr = new Expression("x^2 - x - 1");
+		//expr = expr.subtract(3);
+		//expr = expr.add("x");
+		
+		console.log(expr.toString());
+
+	}
+
+	  getExpr();
+//$(document).ready(function(){
+////    $("p").click(function(){
+////        $(this).hide();
+////    });
+//
+//});
+
+//var a = new Expression(Math.sqrt(5));
+//	  a.add(1).divide(2);
+//	  katex.render(algebra.toTex(a), myEquation);
+//var b = new Expression("x").multiply(new Fraction(5, 4));
+//var c = new Fraction(-21, 4);
+
+//var expr = a.add(b).add(c);
+//
+//var quad = new Equation(expr, 0);
+//katex.render(algebra.toTex(quad), myEquation);
+//
+//var answers = quad.solveFor("x");
+
+
+
+	//katex.render("x = " + algebra.toTex(answers), mySolution);
+
+	var cexpr =  CQ("((a - c)**2 + (b - d)**2)**0.5");
+	console.log(cexpr.toLaTeX());
+	  katex.render(cexpr.toLaTeX(), myEquation);
+  </script>
+</body>
+</html>

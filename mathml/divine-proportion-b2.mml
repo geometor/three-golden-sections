@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mtable>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <msqrt>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <mstyle color="fuchsia">
+         <mi mathvariant="normal">ϕ</mi>
+        </mstyle>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+  </mtable>
+  <annotation encoding="StarMath 5.0">
+
+{
+	size 21 { color magenta {%phi} }
+	 = 
+	 sqrt{
+		{ 1 + color magenta {%phi}  } 
+	 }
+ } newline
+
+
+
+
+
+
+
+
+newline
+
+
+
+
+newline
+
+
+
+
+
+newline
+
+
+
+
+
+
+</annotation>
+ </semantics>
+</math>

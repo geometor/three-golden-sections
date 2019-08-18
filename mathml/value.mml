@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mtable>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mi mathvariant="italic">Solve</mi>
+      <mi mathvariant="italic">for</mi>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mstyle mathsize="21pt">
+      <mstyle color="fuchsia">
+       <mi mathvariant="normal">ϕ</mi>
+      </mstyle>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle color="fuchsia">
+       <msup>
+        <mi mathvariant="normal">ϕ</mi>
+        <mn>2</mn>
+       </msup>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <mrow>
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+       <mo stretchy="false">+</mo>
+       <mn>1</mn>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mrow>
+       <mstyle color="fuchsia">
+        <msup>
+         <mi mathvariant="normal">ϕ</mi>
+         <mn>2</mn>
+        </msup>
+       </mstyle>
+       <mo stretchy="false">−</mo>
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+       <mo stretchy="false">−</mo>
+       <mn>1</mn>
+      </mrow>
+      <mo stretchy="false">=</mo>
+      <mn>0</mn>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mrow>
+       <mrow>
+        <mstyle color="red">
+         <mstyle mathvariant="bold">
+          <mrow>
+           <mo fence="true" stretchy="false">(</mo>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+           <mo fence="true" stretchy="false">)</mo>
+          </mrow>
+         </mstyle>
+        </mstyle>
+        <mo stretchy="false">⋅</mo>
+        <mstyle color="fuchsia">
+         <msup>
+          <mi mathvariant="normal">ϕ</mi>
+          <mn>2</mn>
+         </msup>
+        </mstyle>
+       </mrow>
+       <mo stretchy="false">+</mo>
+       <mrow>
+        <mstyle color="green">
+         <mstyle mathvariant="bold">
+          <mrow>
+           <mo fence="true" stretchy="false">(</mo>
+           <mrow>
+            <mrow>
+             <mo stretchy="false">−</mo>
+             <mn>1</mn>
+            </mrow>
+           </mrow>
+           <mo fence="true" stretchy="false">)</mo>
+          </mrow>
+         </mstyle>
+        </mstyle>
+        <mo stretchy="false">⋅</mo>
+        <mstyle color="fuchsia">
+         <mi mathvariant="normal">ϕ</mi>
+        </mstyle>
+       </mrow>
+       <mo stretchy="false">+</mo>
+       <mstyle color="blue">
+        <mstyle mathvariant="bold">
+         <mrow>
+          <mo fence="true" stretchy="false">(</mo>
+          <mrow>
+           <mrow>
+            <mo stretchy="false">−</mo>
+            <mn>1</mn>
+           </mrow>
+          </mrow>
+          <mo fence="true" stretchy="false">)</mo>
+         </mrow>
+        </mstyle>
+       </mstyle>
+      </mrow>
+      <mo stretchy="false">=</mo>
+      <mn>0</mn>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mi mathvariant="italic">quadratic</mi>
+      <mi mathvariant="italic">equation</mi>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mrow>
+        <mrow>
+         <mo stretchy="false">−</mo>
+         <mstyle color="green">
+          <mi>b</mi>
+         </mstyle>
+        </mrow>
+        <mo stretchy="false">±</mo>
+        <msqrt>
+         <mrow>
+          <mrow>
+           <mstyle color="green">
+            <msup>
+             <mi>b</mi>
+             <mn>2</mn>
+            </msup>
+           </mstyle>
+           <mo stretchy="false">−</mo>
+           <mn>4</mn>
+          </mrow>
+          <mstyle color="red">
+           <mi>a</mi>
+          </mstyle>
+          <mstyle color="blue">
+           <mi>c</mi>
+          </mstyle>
+         </mrow>
+        </msqrt>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+        <mstyle color="red">
+         <mi>a</mi>
+        </mstyle>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mrow>
+        <mrow>
+         <mo stretchy="false">−</mo>
+         <mstyle color="green">
+          <mrow>
+           <mo fence="true" stretchy="false">(</mo>
+           <mrow>
+            <mrow>
+             <mo stretchy="false">−</mo>
+             <mn>1</mn>
+            </mrow>
+           </mrow>
+           <mo fence="true" stretchy="false">)</mo>
+          </mrow>
+         </mstyle>
+        </mrow>
+        <mo stretchy="false">±</mo>
+        <msqrt>
+         <mrow>
+          <mrow>
+           <mstyle color="green">
+            <msup>
+             <mrow>
+              <mo fence="true" stretchy="false">(</mo>
+              <mrow>
+               <mrow>
+                <mo stretchy="false">−</mo>
+                <mn>1</mn>
+               </mrow>
+              </mrow>
+              <mo fence="true" stretchy="false">)</mo>
+             </mrow>
+             <mn>2</mn>
+            </msup>
+           </mstyle>
+           <mo stretchy="false">−</mo>
+           <mn>4</mn>
+          </mrow>
+          <mstyle color="red">
+           <mrow>
+            <mo fence="true" stretchy="false">(</mo>
+            <mrow>
+             <mn>1</mn>
+            </mrow>
+            <mo fence="true" stretchy="false">)</mo>
+           </mrow>
+          </mstyle>
+          <mstyle color="blue">
+           <mrow>
+            <mo fence="true" stretchy="false">(</mo>
+            <mrow>
+             <mrow>
+              <mo stretchy="false">−</mo>
+              <mn>1</mn>
+             </mrow>
+            </mrow>
+            <mo fence="true" stretchy="false">)</mo>
+           </mrow>
+          </mstyle>
+         </mrow>
+        </msqrt>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+        <mstyle color="red">
+         <mrow>
+          <mo fence="true" stretchy="false">(</mo>
+          <mrow>
+           <mn>1</mn>
+          </mrow>
+          <mo fence="true" stretchy="false">)</mo>
+         </mrow>
+        </mstyle>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">±</mo>
+        <msqrt>
+         <mn>5</mn>
+        </msqrt>
+       </mrow>
+       <mn>2</mn>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">≈</mo>
+      <mrow>
+       <mn>1.6180339887</mn>
+       <mn>4989484820</mn>
+       <mn>4586834365</mn>
+       <mn>6381177203</mn>
+       <mn>0917980576</mn>
+       <mn>2862135448</mn>
+       <mn>6227052604</mn>
+       <mn>6281890244</mn>
+       <mn>97072072</mn>
+       <mtext/>
+       <mo stretchy="false">…</mo>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+  </mtable>
+  <annotation encoding="StarMath 5.0">newline
+Solve for newline
+size 21 { color magenta {%phi} } newline
+
+
+newline
+
+{
+	 color magenta {%phi}^{2} 
+	 = 
+	 { color magenta {%phi} + 1 } 
+} newline
+
+newline
+
+{
+	 color magenta {%phi}^{2} - color magenta {%phi} - 1
+	 = 
+	 { 0 } 
+} newline
+
+newline
+
+{
+	 color red bold {(1)} cdot {color magenta {%phi}^{2}} 
+	 + color green bold {(-1)}  cdot {color magenta {%phi}} 
+	 + color blue bold {(-1)} 
+	 = 
+	 { 0 } 
+} newline
+
+
+
+
+
+newline
+quadratic equation newline
+newline
+
+
+{
+	size 21 { color magenta {%phi} }
+	 = 
+	 {
+	 	- color green {b}  +- sqrt{ color green {b} ^2 - 4 color red {a} color blue {c}  }
+	 } over { 
+	 	2 color red {a} 
+	 }
+ } newline
+
+newline
+
+{
+	size 21 { color magenta {%phi} }
+	 = 
+	 {
+	 	-color green {( -1 )}  +- sqrt{ color green {( -1 )} ^2 - 4 color red {(1)} color blue {(-1)}  }
+	 } over { 
+	 	2 color red {(1)} 
+	 }
+ } newline
+
+newline
+
+{
+	size 21 { color magenta {%phi} }
+	 = 
+	 {
+	 	1  +- sqrt{ 5  }
+	 } over { 
+	 	2 
+	 }
+ } newline
+
+newline
+
+{
+	size 21 { color magenta {%phi} }
+	 approx 		{1.6180339887 
+	 4989484820
+	 4586834365
+	 6381177203
+	 0917980576
+	 2862135448
+	 6227052604
+	 6281890244
+	 97072072 &quot;&quot;  dotslow}
+} newline
+
+
+
+
+
+
+
+
+
+</annotation>
+ </semantics>
+</math>

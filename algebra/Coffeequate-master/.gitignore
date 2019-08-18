@@ -1,0 +1,11 @@
+### Builds ###
+lib/*
+dist/*
+site/*
+coffeequate.min.js
+
+### Libraries ###
+src/vendor/**/*.js
+
+### Node ###
+/node_modules

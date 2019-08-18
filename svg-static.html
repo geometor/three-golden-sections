@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Static</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/snap.css" type="text/css">
+  <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+
+  <!-- katex -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.css" integrity="sha384-exe4Ak6B0EoJI0ogGxjJ8rn+RN3ftPnEQrGwX59KTCl5ybGzvHGKjhPKk/KC3abb" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="./css/katex.min.css" />
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.js" integrity="sha384-OMvkZ24ANLwviZR2lVq8ujbE/bUO8IR1FdBrKLQBI14Gq5Xp/lksIccGkmKL8m+h" crossorigin="anonymous"></script> -->
+  <script src="./js/katex.min.js"></script>
+
+  <!-- svg.js -->
+  <script src="./js/jquery-3.1.1.js"></script>
+  <script src="./js/svgjs/svg.js/dist/svg.js"></script>
+  <script src="./js/svgjs/svg.path.js/svg.path.js"></script>
+  <script src="./js/svg.panzoom.js"></script>
+
+  <!-- algebra -->
+  <!-- <script src="./algebra.js/build/algebra-0.2.6.min.js"></script> -->
+  <script src="./Algebrite/dist/algebrite.bundle-for-browser.js"></script>
+
+  <!-- geometor -->
+
+
+</head>
+
+<body class="static">
+  <main>
+    <svg id="drawing" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 8 8" preserveAspectRatio="xMidYMid slice">
+
+      <defs id="SvgjsDefs1001">
+        <marker id="SvgjsMarker1070" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1071" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1072" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1073" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1075" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1076" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1077" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1078" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1080" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1081" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1082" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1083" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1085" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1086" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1087" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1088" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1090" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1091" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1092" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1093" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1095" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1096" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1097" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1098" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1100" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1101" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1102" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1103" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1105" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1106" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1107" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1108" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1110" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1111" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1112" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1113" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1115" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1116" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1117" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1118" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1120" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1121" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1122" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1123" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1125" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1126" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1127" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1128" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1130" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1131" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1132" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1133" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1135" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1136" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1137" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1138" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1140" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1141" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1142" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1143" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1145" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1146" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1147" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1148" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1150" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1151" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1152" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1153" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1155" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1156" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1157" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1158" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1160" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1161" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1162" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1163" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1165" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1166" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1167" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1168" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1170" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1171" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1172" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1173" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1175" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1176" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1177" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1178" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1180" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1181" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1182" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1183" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1185" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1186" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1187" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1188" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1190" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1191" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1192" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1193" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1195" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1196" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1197" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1198" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1200" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1201" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1202" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1203" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1205" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1206" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1207" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1208" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1210" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1211" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1212" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1213" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1215" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1216" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1217" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1218" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1220" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1221" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1222" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1223" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1225" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1226" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1227" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1228" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1230" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1231" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1232" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1233" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1235" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1236" r="1" cx="2" cy="2"></circle>
+        </marker>
+        <marker id="SvgjsMarker1237" markerWidth="4" markerHeight="4" refX="2" refY="2" viewBox="0 0 4 4" orient="auto" style="stroke-opacity: 0.3;">
+          <circle id="SvgjsCircle1238" r="1" cx="2" cy="2"></circle>
+        </marker>
+      </defs>
+      <g id="Circles">
+        <circle id="c1" r="1" cx="-0.5" cy="0" class="Circle" element-id="1" data-svg-origin="-0.5 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; stroke-opacity: 1; fill-opacity: 0;"></circle>
+        <circle id="c2" r="1" cx="0.5" cy="0" class="Circle" element-id="2" data-svg-origin="0.5 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; stroke-opacity: 1; fill-opacity: 0;"></circle>
+        <circle id="c8" r="2" cx="-0.5" cy="0" class="Circle" element-id="8" data-svg-origin="-0.5 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; stroke-opacity: 1; fill-opacity: 0;"></circle>
+        <circle id="c9" r="2" cx="0.5" cy="0" class="Circle" element-id="9" data-svg-origin="0.5 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; stroke-opacity: 1; fill-opacity: 0;"></circle>
+        <circle
+          id="c11"
+          r="1.1547"
+          cx="0"
+          cy="-0.288675"
+          class="Circle"
+          element-id="11"
+          data-svg-origin="0 -0.28867506980895996"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; stroke-opacity: 1; fill-opacity: 0;"></circle>
+      </g>
+      <g id="Lines">
+        <line id="i0" x1="-4" y1="0" x2="4" y2="0" class="Line" element-id="0" data-svg-origin="0 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; stroke-opacity: 1; fill-opacity: 0;"></line>
+        <line id="i3" x1="0" y1="-4" x2="0" y2="4" class="Line" element-id="3" data-svg-origin="0 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; stroke-opacity: 1; fill-opacity: 0;"></line>
+        <line id="i4" x1="1.8094" y1="-4" x2="-2.8094" y2="4" class="Line" element-id="4" data-svg-origin="-0.5 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; stroke-opacity: 1; fill-opacity: 0;"></line>
+        <line id="i5" x1="-2.8094" y1="-4" x2="1.8094" y2="4" class="Line" element-id="5" data-svg-origin="-0.5 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; stroke-opacity: 1;"></line>
+        <line
+          id="i6"
+          x1="-1.8094"
+          y1="-4"
+          x2="2.8094"
+          y2="4"
+          class="Line"
+          element-id="6"
+          data-svg-origin="0.5000001192092896 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; stroke-opacity: 1; fill-opacity: 0;"></line>
+        <line
+          id="i7"
+          x1="2.8094"
+          y1="-4"
+          x2="-1.8094"
+          y2="4"
+          class="Line"
+          element-id="7"
+          data-svg-origin="0.5000001192092896 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; stroke-opacity: 1; fill-opacity: 0;"></line>
+        <line id="i10" x1="6.4282" y1="-4" x2="-7.4282" y2="4" class="Line" element-id="10" data-svg-origin="-0.5 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; stroke-opacity: 1; fill-opacity: 0;"></line>
+      </g>
+      <g id="Segments">
+        <line
+          id="s0"
+          x1="-2.5"
+          y1="0"
+          x2="-1.11803"
+          y2="0"
+          class="Segment"
+          segment-id="0"
+          stroke="#000000"
+          stroke-width="0.055278799999999996"
+          marker-start="url(#SvgjsMarker1070)"
+          marker-end="url(#SvgjsMarker1072)"
+          data-svg-origin="-1.8090149760246277 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s1"
+          x1="-1.11803"
+          y1="0"
+          x2="1.11803"
+          y2="0"
+          class="Segment"
+          segment-id="1"
+          stroke="#000000"
+          stroke-width="0.08944279999999999"
+          marker-start="url(#SvgjsMarker1075)"
+          marker-end="url(#SvgjsMarker1077)"
+          data-svg-origin="0 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s2"
+          x1="-1.5"
+          y1="0"
+          x2="-1.11803"
+          y2="0"
+          class="Segment"
+          segment-id="2"
+          stroke="#000000"
+          stroke-width="0.015278640000000001"
+          marker-start="url(#SvgjsMarker1080)"
+          marker-end="url(#SvgjsMarker1082)"
+          data-svg-origin="-1.3090149760246277 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s3"
+          x1="-1.11803"
+          y1="0"
+          x2="-0.5"
+          y2="0"
+          class="Segment"
+          segment-id="3"
+          stroke="#000000"
+          stroke-width="0.024721359999999998"
+          marker-start="url(#SvgjsMarker1085)"
+          marker-end="url(#SvgjsMarker1087)"
+          data-svg-origin="-0.8090149760246277 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s4"
+          x1="-1.5"
+          y1="0"
+          x2="-0.5"
+          y2="0"
+          class="Segment"
+          segment-id="4"
+          stroke="#000000"
+          stroke-width="0.04"
+          marker-start="url(#SvgjsMarker1090)"
+          marker-end="url(#SvgjsMarker1092)"
+          data-svg-origin="-1 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s5"
+          x1="-0.5"
+          y1="0"
+          x2="1.11803"
+          y2="0"
+          class="Segment"
+          segment-id="5"
+          stroke="#000000"
+          stroke-width="0.0647212"
+          marker-start="url(#SvgjsMarker1095)"
+          marker-end="url(#SvgjsMarker1097)"
+          data-svg-origin="0.3090149760246277 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s6"
+          x1="-0.5"
+          y1="0"
+          x2="0.5"
+          y2="0"
+          class="Segment"
+          segment-id="6"
+          stroke="#000000"
+          stroke-width="0.04"
+          marker-start="url(#SvgjsMarker1100)"
+          marker-end="url(#SvgjsMarker1102)"
+          data-svg-origin="0 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s7"
+          x1="-1.11803"
+          y1="0"
+          x2="0.5"
+          y2="0"
+          class="Segment"
+          segment-id="7"
+          stroke="#000000"
+          stroke-width="0.0647212"
+          marker-start="url(#SvgjsMarker1105)"
+          marker-end="url(#SvgjsMarker1107)"
+          data-svg-origin="-0.3090149760246277 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s8"
+          x1="0.5"
+          y1="0"
+          x2="1.5"
+          y2="0"
+          class="Segment"
+          segment-id="8"
+          stroke="#000000"
+          stroke-width="0.04"
+          marker-start="url(#SvgjsMarker1110)"
+          marker-end="url(#SvgjsMarker1112)"
+          data-svg-origin="1 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s9"
+          x1="0.5"
+          y1="0"
+          x2="1.11803"
+          y2="0"
+          class="Segment"
+          segment-id="9"
+          stroke="#000000"
+          stroke-width="0.024721359999999998"
+          marker-start="url(#SvgjsMarker1115)"
+          marker-end="url(#SvgjsMarker1117)"
+          data-svg-origin="0.8090149760246277 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s10"
+          x1="0"
+          y1="-1.93649"
+          x2="0"
+          y2="-0.866025"
+          class="Segment"
+          segment-id="10"
+          stroke="#000000"
+          stroke-width="0.042818800000000004"
+          marker-start="url(#SvgjsMarker1120)"
+          marker-end="url(#SvgjsMarker1122)"
+          data-svg-origin="0 -1.4012575149536133"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s11"
+          x1="0"
+          y1="-0.866025"
+          x2="0"
+          y2="0.866025"
+          class="Segment"
+          segment-id="11"
+          stroke="#000000"
+          stroke-width="0.06928200000000001"
+          marker-start="url(#SvgjsMarker1125)"
+          marker-end="url(#SvgjsMarker1127)"
+          data-svg-origin="0 0"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s12"
+          x1="0"
+          y1="0.866025"
+          x2="0"
+          y2="1.93649"
+          class="Segment"
+          segment-id="12"
+          stroke="#000000"
+          stroke-width="0.042818800000000004"
+          marker-start="url(#SvgjsMarker1130)"
+          marker-end="url(#SvgjsMarker1132)"
+          data-svg-origin="0 1.4012575149536133"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s13"
+          x1="-1.5"
+          y1="1.73205"
+          x2="-0.809017"
+          y2="0.535233"
+          class="Segment"
+          segment-id="13"
+          stroke="#000000"
+          stroke-width="0.055278799999999996"
+          marker-start="url(#SvgjsMarker1135)"
+          marker-end="url(#SvgjsMarker1137)"
+          data-svg-origin="-1.154508501291275 1.1336414813995361"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s14"
+          x1="-0.809017"
+          y1="0.535233"
+          x2="0.309017"
+          y2="-1.40126"
+          class="Segment"
+          segment-id="14"
+          stroke="#000000"
+          stroke-width="0.08944279999999999"
+          marker-start="url(#SvgjsMarker1140)"
+          marker-end="url(#SvgjsMarker1142)"
+          data-svg-origin="-0.25 -0.4330134987831116"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s15"
+          x1="-1"
+          y1="0.866025"
+          x2="-0.809017"
+          y2="0.535233"
+          class="Segment"
+          segment-id="15"
+          stroke="#000000"
+          stroke-width="0.015278640000000001"
+          marker-start="url(#SvgjsMarker1145)"
+          marker-end="url(#SvgjsMarker1147)"
+          data-svg-origin="-0.904508501291275 0.7006289958953857"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s16"
+          x1="-0.809017"
+          y1="0.535233"
+          x2="-0.5"
+          y2="0"
+          class="Segment"
+          segment-id="16"
+          stroke="#000000"
+          stroke-width="0.024721359999999998"
+          marker-start="url(#SvgjsMarker1150)"
+          marker-end="url(#SvgjsMarker1152)"
+          data-svg-origin="-0.654508501291275 0.26761651039123535"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s17"
+          x1="-1"
+          y1="0.866025"
+          x2="-0.5"
+          y2="0"
+          class="Segment"
+          segment-id="17"
+          stroke="#000000"
+          stroke-width="0.04"
+          marker-start="url(#SvgjsMarker1155)"
+          marker-end="url(#SvgjsMarker1157)"
+          data-svg-origin="-0.75 0.4330124855041504"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s18"
+          x1="-0.5"
+          y1="0"
+          x2="0.309017"
+          y2="-1.40126"
+          class="Segment"
+          segment-id="18"
+          stroke="#000000"
+          stroke-width="0.0647212"
+          marker-start="url(#SvgjsMarker1160)"
+          marker-end="url(#SvgjsMarker1162)"
+          data-svg-origin="-0.09549149870872498 -0.7006300091743469"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s19"
+          x1="-0.5"
+          y1="0"
+          x2="0"
+          y2="-0.866025"
+          class="Segment"
+          segment-id="19"
+          stroke="#000000"
+          stroke-width="0.04"
+          marker-start="url(#SvgjsMarker1165)"
+          marker-end="url(#SvgjsMarker1167)"
+          data-svg-origin="-0.25 -0.4330124855041504"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s20"
+          x1="-0.809017"
+          y1="0.535233"
+          x2="0"
+          y2="-0.866025"
+          class="Segment"
+          segment-id="20"
+          stroke="#000000"
+          stroke-width="0.0647212"
+          marker-start="url(#SvgjsMarker1170)"
+          marker-end="url(#SvgjsMarker1172)"
+          data-svg-origin="-0.404508501291275 -0.16539597511291504"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s21"
+          x1="0"
+          y1="-0.866025"
+          x2="0.5"
+          y2="-1.73205"
+          class="Segment"
+          segment-id="21"
+          stroke="#000000"
+          stroke-width="0.04"
+          marker-start="url(#SvgjsMarker1175)"
+          marker-end="url(#SvgjsMarker1177)"
+          data-svg-origin="0.25 -1.2990374565124512"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s22"
+          x1="0"
+          y1="-0.866025"
+          x2="0.309017"
+          y2="-1.40126"
+          class="Segment"
+          segment-id="22"
+          stroke="#000000"
+          stroke-width="0.024721359999999998"
+          marker-start="url(#SvgjsMarker1180)"
+          marker-end="url(#SvgjsMarker1182)"
+          data-svg-origin="0.15450850129127502 -1.1336424946784973"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s23"
+          x1="-0.5"
+          y1="-1.73205"
+          x2="-0.309017"
+          y2="-1.40126"
+          class="Segment"
+          segment-id="23"
+          stroke="#000000"
+          stroke-width="0.015278640000000001"
+          marker-start="url(#SvgjsMarker1185)"
+          marker-end="url(#SvgjsMarker1187)"
+          data-svg-origin="-0.404508501291275 -1.5666549801826477"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s24"
+          x1="-0.309017"
+          y1="-1.40126"
+          x2="0"
+          y2="-0.866025"
+          class="Segment"
+          segment-id="24"
+          stroke="#000000"
+          stroke-width="0.024721359999999998"
+          marker-start="url(#SvgjsMarker1190)"
+          marker-end="url(#SvgjsMarker1192)"
+          data-svg-origin="-0.15450850129127502 -1.1336424946784973"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s25"
+          x1="-0.5"
+          y1="-1.73205"
+          x2="0"
+          y2="-0.866025"
+          class="Segment"
+          segment-id="25"
+          stroke="#000000"
+          stroke-width="0.04"
+          marker-start="url(#SvgjsMarker1195)"
+          marker-end="url(#SvgjsMarker1197)"
+          data-svg-origin="-0.25 -1.2990374565124512"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s26"
+          x1="0"
+          y1="-0.866025"
+          x2="0.809017"
+          y2="0.535233"
+          class="Segment"
+          segment-id="26"
+          stroke="#000000"
+          stroke-width="0.0647212"
+          marker-start="url(#SvgjsMarker1200)"
+          marker-end="url(#SvgjsMarker1202)"
+          data-svg-origin="0.404508501291275 -0.16539597511291504"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s27"
+          x1="0"
+          y1="-0.866025"
+          x2="0.5"
+          y2="0"
+          class="Segment"
+          segment-id="27"
+          stroke="#000000"
+          stroke-width="0.04"
+          marker-start="url(#SvgjsMarker1205)"
+          marker-end="url(#SvgjsMarker1207)"
+          data-svg-origin="0.25 -0.4330124855041504"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s28"
+          x1="-0.309017"
+          y1="-1.40126"
+          x2="0.5"
+          y2="0"
+          class="Segment"
+          segment-id="28"
+          stroke="#000000"
+          stroke-width="0.0647212"
+          marker-start="url(#SvgjsMarker1210)"
+          marker-end="url(#SvgjsMarker1212)"
+          data-svg-origin="0.09549149870872498 -0.7006300091743469"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s29"
+          x1="0.5"
+          y1="0"
+          x2="1"
+          y2="0.866025"
+          class="Segment"
+          segment-id="29"
+          stroke="#000000"
+          stroke-width="0.04"
+          marker-start="url(#SvgjsMarker1215)"
+          marker-end="url(#SvgjsMarker1217)"
+          data-svg-origin="0.75 0.4330124855041504"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s30"
+          x1="0.5"
+          y1="0"
+          x2="0.809017"
+          y2="0.535233"
+          class="Segment"
+          segment-id="30"
+          stroke="#000000"
+          stroke-width="0.024721359999999998"
+          marker-start="url(#SvgjsMarker1220)"
+          marker-end="url(#SvgjsMarker1222)"
+          data-svg-origin="0.654508501291275 0.26761651039123535"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s31"
+          x1="-1.42705"
+          y1="0.535233"
+          x2="-0.5"
+          y2="0"
+          class="Segment"
+          segment-id="31"
+          stroke="#000000"
+          stroke-width="0.042818800000000004"
+          marker-start="url(#SvgjsMarker1225)"
+          marker-end="url(#SvgjsMarker1227)"
+          data-svg-origin="-0.9635249972343445 0.26761651039123535"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s32"
+          x1="-0.5"
+          y1="0"
+          x2="1"
+          y2="-0.866025"
+          class="Segment"
+          segment-id="32"
+          stroke="#000000"
+          stroke-width="0.06928200000000001"
+          marker-start="url(#SvgjsMarker1230)"
+          marker-end="url(#SvgjsMarker1232)"
+          data-svg-origin="0.25 -0.4330124855041504"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+        <line
+          id="s33"
+          x1="1"
+          y1="-0.866025"
+          x2="1.92705"
+          y2="-1.40126"
+          class="Segment"
+          segment-id="33"
+          stroke="#000000"
+          stroke-width="0.042818800000000004"
+          marker-start="url(#SvgjsMarker1235)"
+          marker-end="url(#SvgjsMarker1237)"
+          data-svg-origin="1.4635249972343445 -1.1336424946784973"
+          transform="matrix(1,0,0,1,0,0)"
+          style="stroke-opacity: 0.3; visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px;"></line>
+      </g>
+      <g id="Points">
+        <circle id="p0" r="0.025" cx="-0.5" cy="0" class="Point" point-id="0" data-svg-origin="-0.49999997578561306 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p1" r="0.025" cx="0.5" cy="0" class="Point" point-id="1" data-svg-origin="0.49999999441206455 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p2" r="0.025" cx="-1.5" cy="0" class="Point" point-id="2" data-svg-origin="-1.499999975785613 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p3" r="0.025" cx="1.5" cy="0" class="Point" point-id="3" data-svg-origin="1.500000024214387 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p4" r="0.025" cx="0" cy="-0.866025" class="Point" point-id="4" data-svg-origin="0 -0.8660249467939138" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p5" r="0.025" cx="0" cy="0.866025" class="Point" point-id="5" data-svg-origin="0 0.8660249952226877" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p6" r="0.025" cx="0" cy="0" class="Point" point-id="6" data-svg-origin="0 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p7"
+          r="0.025"
+          cx="-1"
+          cy="0.866025"
+          class="Point"
+          point-id="7"
+          data-svg-origin="-0.9999999757856131 0.8660249952226877"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p8"
+          r="0.025"
+          cx="-1"
+          cy="-0.866025"
+          class="Point"
+          point-id="8"
+          data-svg-origin="-0.9999999757856131 -0.8660249467939138"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p9" r="0.025" cx="1" cy="0.866025" class="Point" point-id="9" data-svg-origin="1.000000024214387 0.8660249952226877" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p10"
+          r="0.025"
+          cx="1"
+          cy="-0.866025"
+          class="Point"
+          point-id="10"
+          data-svg-origin="1.000000024214387 -0.8660249467939138"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p11" r="0.025" cx="-2.5" cy="0" class="Point" point-id="11" data-svg-origin="-2.5000000949949026 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p12" r="0.025" cx="0" cy="-1.93649" class="Point" point-id="12" data-svg-origin="0 -1.9364900346845388" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p13" r="0.025" cx="0" cy="1.93649" class="Point" point-id="13" data-svg-origin="0 1.9364900831133127" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p14"
+          r="0.025"
+          cx="0.5"
+          cy="-1.73205"
+          class="Point"
+          point-id="14"
+          data-svg-origin="0.49999999441206455 -1.7320499178022146"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p15"
+          r="0.025"
+          cx="-1.5"
+          cy="1.73205"
+          class="Point"
+          point-id="15"
+          data-svg-origin="-1.499999975785613 1.7320499662309885"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p16"
+          r="0.025"
+          cx="-1.5"
+          cy="-1.73205"
+          class="Point"
+          point-id="16"
+          data-svg-origin="-1.499999975785613 -1.7320499178022146"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p17"
+          r="0.025"
+          cx="0.5"
+          cy="1.73205"
+          class="Point"
+          point-id="17"
+          data-svg-origin="0.49999999441206455 1.7320499662309885"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p18"
+          r="0.025"
+          cx="-0.651388"
+          cy="-1.99426"
+          class="Point"
+          point-id="18"
+          data-svg-origin="-0.6513879653066397 -1.9942601677030325"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p19"
+          r="0.025"
+          cx="1.15139"
+          cy="1.12824"
+          class="Point"
+          point-id="19"
+          data-svg-origin="1.1513899806886911 1.1282400134950876"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p20"
+          r="0.025"
+          cx="1.15139"
+          cy="-1.12824"
+          class="Point"
+          point-id="20"
+          data-svg-origin="1.1513899806886911 -1.1282399650663137"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p21"
+          r="0.025"
+          cx="-0.651388"
+          cy="1.99426"
+          class="Point"
+          point-id="21"
+          data-svg-origin="-0.6513879653066397 1.9942600969225168"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p22" r="0.025" cx="2.5" cy="0" class="Point" point-id="22" data-svg-origin="2.4999999050050974 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p23"
+          r="0.025"
+          cx="0.651388"
+          cy="-1.99426"
+          class="Point"
+          point-id="23"
+          data-svg-origin="0.6513880137354136 -1.9942601677030325"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p24"
+          r="0.025"
+          cx="-1.15139"
+          cy="1.12824"
+          class="Point"
+          point-id="24"
+          data-svg-origin="-1.1513899322599173 1.1282400134950876"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p25"
+          r="0.025"
+          cx="-1.15139"
+          cy="-1.12824"
+          class="Point"
+          point-id="25"
+          data-svg-origin="-1.1513899322599173 -1.1282399650663137"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p26"
+          r="0.025"
+          cx="0.651388"
+          cy="1.99426"
+          class="Point"
+          point-id="26"
+          data-svg-origin="0.6513880137354136 1.9942600969225168"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p27"
+          r="0.025"
+          cx="-0.5"
+          cy="-1.73205"
+          class="Point"
+          point-id="27"
+          data-svg-origin="-0.49999997578561306 -1.7320499178022146"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p28"
+          r="0.025"
+          cx="1.5"
+          cy="1.73205"
+          class="Point"
+          point-id="28"
+          data-svg-origin="1.500000024214387 1.7320499662309885"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p29"
+          r="0.025"
+          cx="1.5"
+          cy="-1.73205"
+          class="Point"
+          point-id="29"
+          data-svg-origin="1.500000024214387 -1.7320499178022146"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p30"
+          r="0.025"
+          cx="-0.5"
+          cy="1.73205"
+          class="Point"
+          point-id="30"
+          data-svg-origin="-0.49999997578561306 1.7320499662309885"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p31"
+          r="0.025"
+          cx="0.366025"
+          cy="-0.5"
+          class="Point"
+          point-id="31"
+          data-svg-origin="0.3660249952226877 -0.49999997578561306"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p32"
+          r="0.025"
+          cx="-1.36603"
+          cy="0.5"
+          class="Point"
+          point-id="32"
+          data-svg-origin="-1.366029953584075 0.49999999441206455"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p33" r="0.025" cx="0" cy="-0.288675" class="Point" point-id="33" data-svg-origin="0 -0.28867501579225063" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p34"
+          r="0.025"
+          cx="1.23205"
+          cy="-1"
+          class="Point"
+          point-id="34"
+          data-svg-origin="1.232050085440278 -0.9999999757856131"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p35"
+          r="0.025"
+          cx="-2.23205"
+          cy="1"
+          class="Point"
+          point-id="35"
+          data-svg-origin="-2.232050037011504 1.000000024214387"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p36"
+          r="0.025"
+          cx="1.92705"
+          cy="-1.40126"
+          class="Point"
+          point-id="36"
+          data-svg-origin="1.927050018683076 -1.401259994134307"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p37"
+          r="0.025"
+          cx="-1.42705"
+          cy="0.535233"
+          class="Point"
+          point-id="37"
+          data-svg-origin="-1.427049970254302 0.5352330449968576"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p38" r="0.025" cx="-1.11803" cy="0" class="Point" point-id="38" data-svg-origin="-1.1180299278348684 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p39" r="0.025" cx="1.11803" cy="0" class="Point" point-id="39" data-svg-origin="1.1180299762636423 0" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle id="p40" r="0.025" cx="0" cy="-1.44338" class="Point" point-id="40" data-svg-origin="0 -1.4433799739927053" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p41"
+          r="0.025"
+          cx="0.309017"
+          cy="-1.40126"
+          class="Point"
+          point-id="41"
+          data-svg-origin="0.3090169969946146 -1.401259994134307"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p42"
+          r="0.025"
+          cx="-0.809017"
+          cy="0.535233"
+          class="Point"
+          point-id="42"
+          data-svg-origin="-0.8090169783681631 0.5352330449968576"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p43"
+          r="0.025"
+          cx="-0.309017"
+          cy="-1.40126"
+          class="Point"
+          point-id="43"
+          data-svg-origin="-0.3090170081704855 -1.401259994134307"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p44"
+          r="0.025"
+          cx="0.809017"
+          cy="0.535233"
+          class="Point"
+          point-id="44"
+          data-svg-origin="0.809017026796937 0.5352330449968576"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+        <circle
+          id="p45"
+          r="0.025"
+          cx="-1"
+          cy="0.288675"
+          class="Point"
+          point-id="45"
+          data-svg-origin="-0.9999999757856131 0.28867500461637974"
+          transform="matrix(1,0,0,1,0,0)"
+          style="visibility: inherit; opacity: 1; transform-origin: 0px 0px 0px; fill-opacity: 1;"></circle>
+      </g>
+    </svg>
+  </main>
+
+  <!-- <script src="./js/SVG-utils.js"></script> -->
+  <!-- <script src="./js/SVG-algebra.js"></script> -->
+  <!-- <script src="./js/SVG-elements.js"></script> -->
+
+  <!-- <script src='js/TweenMax.min.js'></script> -->
+  <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script> -->
+
+  <!-- <script src="./js/SVG-animate.js"></script> -->
+  <!-- <script src="./js/SVG-animate-utils.js"></script> -->
+
+  <!-- <script src="./js/main-root3.js"></script> -->
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Snap Draw</title>
+    <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/snap.css" type="text/css">
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+</head>
+
+<body>
+
+    <svg id="drawing" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+        viewBox="-2 -2 4 4"
+        width="100vw" height="100vh"
+        >
+
+
+        </svg>
+
+
+        <div id="menu" class="noPrint">
+
+            <img id="logo_header" src="geometor_logo.svg" alt="Geometor" />
+            <button id="play">toggle play()</button>
+            <button id="reverse">reverse()</button>
+            <button id="resume">resume()</button>
+            <button id="pos1">#1</button>
+            <button id="pos2">#2</button>
+            <button id="pos3">#3</button>
+            <button id="restart">restart</button>
+            <div id="sliderWrapper">
+                <div id="slider"></div>
+            </div>
+            <script src='js/jquery-3.1.1.min.js'></script>
+            <script src='js/jquery-ui.min.js'></script>
+            <script src='js/TweenMax.min.js'></script>
+            <script src="js/geometor.svg.js"></script>
+            <script src="js/snap.svg-min.js"></script>
+            <script src="js/snap.js"></script>
+            <script src="js/geometor.ui.js"></script>
+        </div>
+</body>
+</html>

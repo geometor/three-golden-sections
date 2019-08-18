@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mtable>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="30pt">
+       <mi mathvariant="normal">ϕ</mi>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mrow>
+        <msqrt>
+         <mn>5</mn>
+        </msqrt>
+        <mo stretchy="false">±</mo>
+        <mn>1</mn>
+       </mrow>
+       <mn>2</mn>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mstyle mathsize="30pt">
+      <mrow>
+       <msup>
+        <mi>ϕ</mi>
+        <msup>
+         <mi>ϕ</mi>
+         <mrow>
+          <mn>2</mn>
+          <mo stretchy="false">+</mo>
+          <mi>ϕ</mi>
+         </mrow>
+        </msup>
+       </msup>
+       <mo stretchy="false">=</mo>
+       <msup>
+        <mi>ϕ</mi>
+        <msup>
+         <mi>ϕ</mi>
+         <mrow>
+          <mi>ϕ</mi>
+          <mi>⁢</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mrow>
+            <mn>1</mn>
+            <mo stretchy="false">+</mo>
+            <mi>ϕ</mi>
+           </mrow>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mrow>
+        </msup>
+       </msup>
+       <mo stretchy="false">=</mo>
+       <msup>
+        <mi>ϕ</mi>
+        <msup>
+         <mi>ϕ</mi>
+         <mrow>
+          <mn>1</mn>
+          <mo stretchy="false">+</mo>
+          <msup>
+           <mi>ϕ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msup>
+       </msup>
+       <mo stretchy="false">=</mo>
+       <msup>
+        <mi>ϕ</mi>
+        <msup>
+         <mi>ϕ</mi>
+         <mrow>
+          <mn>2</mn>
+          <mo stretchy="false">+</mo>
+          <mi>ϕ</mi>
+         </mrow>
+        </msup>
+       </msup>
+      </mrow>
+     </mstyle>
+    </mtd>
+   </mtr>
+  </mtable>
+  <annotation encoding="StarMath 5.0">
+{
+	size 30 {%phi} 
+	= 
+	{sqrt{5} +-1} over {2}
+	
+}
+
+newline
+newline
+
+size 30 {
+	ϕ ^ {ϕ^{2 + ϕ}} 
+	=
+	ϕ ^ {ϕ^{ϕ ⁢ { \( {1 + ϕ} \) }}}
+	= 
+	ϕ ^ {ϕ^{1 + ϕ^2}} 
+	= 
+	ϕ ^ {ϕ^{2 + ϕ}}
+}  
+
+</annotation>
+ </semantics>
+</math>

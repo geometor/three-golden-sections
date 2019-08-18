@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mtable>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd columnalign="right">
+     <mstyle color="fuchsia">
+      <mrow>
+       <mo fence="true" stretchy="false">[</mo>
+       <mrow>
+        <mi mathvariant="normal">ϕ</mi>
+       </mrow>
+       <mo fence="true" stretchy="false">]</mo>
+      </mrow>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <mrow>
+       <mn>1</mn>
+       <mo stretchy="false">+</mo>
+       <mfrac>
+        <mn>1</mn>
+        <mrow>
+         <mn>1</mn>
+         <mo stretchy="false">+</mo>
+         <mfrac>
+          <mn>1</mn>
+          <mrow>
+           <mn>1</mn>
+           <mo stretchy="false">+</mo>
+           <mfrac>
+            <mn>1</mn>
+            <mrow>
+             <mn>1</mn>
+             <mo stretchy="false">+</mo>
+             <mfrac>
+              <mn>1</mn>
+              <mrow>
+               <mn>1</mn>
+               <mo stretchy="false">+</mo>
+               <mfrac>
+                <mn>1</mn>
+                <mrow>
+                 <mn>1</mn>
+                 <mo stretchy="false">+</mo>
+                 <mstyle color="fuchsia">
+                  <mi mathvariant="normal">ϕ</mi>
+                 </mstyle>
+                </mrow>
+               </mfrac>
+              </mrow>
+             </mfrac>
+            </mrow>
+           </mfrac>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd columnalign="right">
+     <mstyle color="red">
+      <mrow>
+       <mo fence="true" stretchy="false">[</mo>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo fence="true" stretchy="false">]</mo>
+      </mrow>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">≈</mo>
+      <mrow>
+       <mn>1</mn>
+       <mo stretchy="false">+</mo>
+       <mfrac>
+        <mn>1</mn>
+        <mrow>
+         <mn>1</mn>
+         <mo stretchy="false">+</mo>
+         <mfrac>
+          <mn>1</mn>
+          <mrow>
+           <mn>1</mn>
+           <mo stretchy="false">+</mo>
+           <mfrac>
+            <mn>1</mn>
+            <mrow>
+             <mn>1</mn>
+             <mo stretchy="false">+</mo>
+             <mfrac>
+              <mn>1</mn>
+              <mrow>
+               <mn>1</mn>
+               <mo stretchy="false">+</mo>
+               <mfrac>
+                <mn>1</mn>
+                <mrow>
+                 <mn>1</mn>
+                 <mo stretchy="false">+</mo>
+                 <mstyle color="red">
+                  <mn>1</mn>
+                 </mstyle>
+                </mrow>
+               </mfrac>
+              </mrow>
+             </mfrac>
+            </mrow>
+           </mfrac>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd columnalign="right">
+     <mstyle color="red">
+      <mrow>
+       <mo fence="true" stretchy="false">[</mo>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+       <mo fence="true" stretchy="false">]</mo>
+      </mrow>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">≈</mo>
+      <mfrac>
+       <mn>1</mn>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mrow>
+          <mn>1</mn>
+          <mo stretchy="false">+</mo>
+          <mfrac>
+           <mn>1</mn>
+           <mrow>
+            <mn>1</mn>
+            <mo stretchy="false">+</mo>
+            <mfrac>
+             <mn>1</mn>
+             <mrow>
+              <mn>1</mn>
+              <mo stretchy="false">+</mo>
+              <mfrac>
+               <mn>1</mn>
+               <mstyle color="red">
+                <mn>2</mn>
+               </mstyle>
+              </mfrac>
+             </mrow>
+            </mfrac>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd columnalign="right">
+     <mstyle color="red">
+      <mrow>
+       <mo fence="true" stretchy="false">[</mo>
+       <mrow>
+        <mn>3</mn>
+       </mrow>
+       <mo fence="true" stretchy="false">]</mo>
+      </mrow>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">≈</mo>
+      <mfrac>
+       <mn>1</mn>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mrow>
+          <mn>1</mn>
+          <mo stretchy="false">+</mo>
+          <mfrac>
+           <mn>1</mn>
+           <mrow>
+            <mn>1</mn>
+            <mo stretchy="false">+</mo>
+            <mfrac>
+             <mn>1</mn>
+             <mfrac>
+              <mstyle color="red">
+               <mn>3</mn>
+              </mstyle>
+              <mstyle color="red">
+               <mn>2</mn>
+              </mstyle>
+             </mfrac>
+            </mfrac>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd columnalign="right">
+     <mstyle color="red">
+      <mrow>
+       <mo fence="true" stretchy="false">[</mo>
+       <mrow>
+        <mn>5</mn>
+       </mrow>
+       <mo fence="true" stretchy="false">]</mo>
+      </mrow>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">≈</mo>
+      <mfrac>
+       <mn>1</mn>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mrow>
+          <mn>1</mn>
+          <mo stretchy="false">+</mo>
+          <mfrac>
+           <mn>1</mn>
+           <mfrac>
+            <mstyle color="red">
+             <mn>5</mn>
+            </mstyle>
+            <mstyle color="red">
+             <mn>3</mn>
+            </mstyle>
+           </mfrac>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd columnalign="right">
+     <mstyle color="red">
+      <mrow>
+       <mo fence="true" stretchy="false">[</mo>
+       <mrow>
+        <mn>8</mn>
+       </mrow>
+       <mo fence="true" stretchy="false">]</mo>
+      </mrow>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">≈</mo>
+      <mfrac>
+       <mn>1</mn>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mfrac>
+          <mstyle color="red">
+           <mn>8</mn>
+          </mstyle>
+          <mstyle color="red">
+           <mn>5</mn>
+          </mstyle>
+         </mfrac>
+        </mfrac>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd columnalign="right">
+     <mstyle color="red">
+      <mrow>
+       <mo fence="true" stretchy="false">[</mo>
+       <mrow>
+        <mn>13</mn>
+       </mrow>
+       <mo fence="true" stretchy="false">]</mo>
+      </mrow>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">≈</mo>
+      <mrow>
+       <mn>1</mn>
+       <mo stretchy="false">+</mo>
+       <mfrac>
+        <mn>1</mn>
+        <mfrac>
+         <mstyle color="red">
+          <mn>13</mn>
+         </mstyle>
+         <mstyle color="red">
+          <mn>8</mn>
+         </mstyle>
+        </mfrac>
+       </mfrac>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd columnalign="right">
+     <mstyle color="red">
+      <mrow>
+       <mo fence="true" stretchy="false">[</mo>
+       <mrow>
+        <mn>21</mn>
+       </mrow>
+       <mo fence="true" stretchy="false">]</mo>
+      </mrow>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">≈</mo>
+      <mrow>
+       <mn>1</mn>
+       <mo stretchy="false">+</mo>
+       <mfrac>
+        <mstyle color="red">
+         <mn>8</mn>
+        </mstyle>
+        <mstyle color="red">
+         <mn>13</mn>
+        </mstyle>
+       </mfrac>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd columnalign="right">
+     <mstyle color="red">
+      <mrow>
+       <mo fence="true" stretchy="false">[</mo>
+       <mrow>
+        <mn>55</mn>
+       </mrow>
+       <mo fence="true" stretchy="false">]</mo>
+      </mrow>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">≈</mo>
+      <mrow>
+       <mn>1</mn>
+       <mo stretchy="false">+</mo>
+       <mfrac>
+        <mstyle color="red">
+         <mn>34</mn>
+        </mstyle>
+        <mstyle color="red">
+         <mn>55</mn>
+        </mstyle>
+       </mfrac>
+      </mrow>
+      <mo stretchy="false">=</mo>
+      <mrow>
+       <mn>1.618</mn>
+       <mstyle color="silver">
+        <mn>18181818</mn>
+       </mstyle>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+  </mtable>
+  <annotation encoding="StarMath 5.0">newline
+alignr color magenta { [%phi] }  newline
+{ 
+	size 21 { color magenta {%phi} }
+	= 
+	1 + 
+	{ 
+		{ 1 } 
+		over 
+		{ 
+			1 + { 1 } 
+			over { 1 + { 1 } 
+				over { 1 + { 1 } 
+					over { 1 + { 1 } 
+						over { 1 + color magenta {%phi} }  
+						}  
+			}  
+		} 
+	} 
+	}
+} newline 
+
+newline
+alignr color red { [1] }  newline
+{ 
+	size 21 { color magenta {%phi} }
+	approx   
+	1 + { 
+		1 
+		over { 
+			1 + {
+				1 
+				over 
+				{ 
+					1 + { 
+						1 
+						over { 
+							1 + {
+								1 
+								over {
+									1 + {
+										1 
+										over {
+											1 + color red {1} 
+										}  
+									}  
+								}  
+							} 
+						}
+					}
+				}
+			}
+		}
+}
+} newline 
+
+newline
+alignr color red { [2] }  newline
+{ 
+	size 21 { color magenta {%phi} }
+	approx
+	{ 1 } 
+	over 
+	{ 1 + { 1 } 
+		over { 1 + { 1 } 
+			over { 1 + { 1 } 
+				over { 1 + { 1 } 
+					over { color red {2} }  
+				}  
+			}  
+		} 
+	} 
+	
+} newline 
+
+newline
+alignr color red { [3] }  newline
+{ 
+	size 21 { color magenta {%phi} }
+	approx
+	{ 1 } 
+	over 
+	{ 1 + { 1 } 
+		over { 1 + { 1 } 
+			over { 1 + { 1 } 
+				over { color red {3}  
+					over { color red {2} }  
+				}  
+			}  
+		} 
+	} 
+} newline 
+
+newline
+alignr color red { [5] }  newline
+{ 
+	size 21 { color magenta {%phi} }
+	approx 
+	{ 1 } 
+	over 
+	{ 1 + { 1 } 
+		over { 1 + { 1 } 
+			over { color red {5}  
+				over { color red {3} }  
+			}  
+		} 
+	} 
+} newline 
+
+newline
+alignr color red { [8] }  newline
+{ 
+	size 21 { color magenta {%phi} }
+	approx 
+	{ 1 } 
+	over 
+	{ 1 + { 1 } 
+		over { 
+			color red {8}  
+			over { 
+				color red {5} 
+			}  
+		}  
+	} 
+} newline 
+
+newline
+alignr color red { [13] }  newline
+{ 
+	size 21 { color magenta {%phi} }
+	approx 
+	1 + { 
+		1  
+		over 
+		{ 
+			color red {13}  
+			over { color red {8} }
+		} 
+	} 
+} newline 
+
+newline
+alignr color red { [21] }  newline
+{ 
+	size 21 { color magenta {%phi} }
+	approx 
+	1 + { 
+		color red {8}  
+		over { 
+			color red {13} 
+		}  
+	}
+
+} newline 
+
+newline
+alignr color red { [55] }  newline
+{ 
+	size 21 { color magenta {%phi} }
+	approx 
+	1 + { 
+		color red {34}  
+		over { 
+			color red {55} 
+		}  
+	}
+	=
+	{ 1.618 color silver {18181818}  }
+
+} newline 
+
+</annotation>
+ </semantics>
+</math>

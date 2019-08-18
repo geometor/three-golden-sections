@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Algebrite home page">
+  <meta name="keywords" content="JavaScript,Computer algebra system,Symbolic computation,Algebraic computation">
+  <meta name="author" content="Davide Della Casa">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+  <title>Algebrite</title>
+
+  <base href="./">
+
+  <!-- <link rel="stylesheet" href="stylesheets/styles.css"> -->
+  <!-- <link rel="stylesheet" href="stylesheets/github-light.css"> -->
+  <meta name="viewport" content="width=device-width">
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  <style>
+  body {
+    padding: 1em;
+    margin: 0;
+  }
+  textarea {
+    font-size: 1.3em;
+    padding: .5em;
+    line-height: 1.5;
+    width: 90%;
+    margin: auto 1em;
+    display: block;
+  }
+  input {
+    padding: 1em;
+    display: block;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+        <h1>Algebrite Sandbox</h1>
+      <p>Computer Algebra System in Javascript.</br><small><a href="https://github.com/davidedc/Algebrite">View on GitHub</a>.</br>latest-stable: v1.0.0</small></p>
+
+    </header>
+    <section>
+
+
+
+      <div style="width:100%;">
+<textarea id="terminal1" name="terminal" rows="15" cols="80" >
+  clearall
+  C1 = -3/4 + x + x^2 + y^2
+  C2 = -1/4 + x^2 + y^2 + 3^(1/2) y
+  # subtract two circle equations
+  # this should provide a linear equation
+  S = C1 - C2
+  S
+  # solve this equation for x
+  X = roots(S, x)
+  X
+  # substitute this x value into a circle equation
+  Y = subst(X, x, C1)
+  Y
+  # solve for y
+  Ry = roots(Y, y)
+  Ry
+  # substitute each y value into the equation
+  subst(Ry[1], y, X)
+  subst(Ry[2], y, X)
+
+
+
+</textarea>
+        <textarea id="output1" name="terminal" rows="5" cols="80" ></textarea>
+        <input name="execute" value="&#x25B6;" onclick="execute(1);" type="button">
+      </div>
+      </br>
+      <div style="width:100%;">
+<textarea id="terminal2" name="terminal" rows="15" cols="80" >
+  # line test
+  clearall
+  p1x=1/4 - 1/4 5^(1/2)
+  simplify(p1x)
+
+  p1y=-1/4 3^(1/2) - 1/4 3^(1/2) 5^(1/2)
+  simplify(p1y)
+  
+  p2x=-1/2 5^(1/2)
+  p2y=0
+  a = (p1y) - (p2y)
+  b = (p2x) - (p1x)
+  c = ((p1x) * (p2y)) - ((p2x) * (p1y))
+  eq = a * x + b * y + c
+  eq
+  xRoot1 = roots(eq, x)
+  xRoot1
+
+  simplify(eq)
+  xRoot1 = roots(eq, x)
+  xRoot1
+
+  # xRoot1 = roots(eq, x)
+  # yRoot1 = roots(eq, y)
+  # xRoot1
+
+  m = -(a) / (b)
+  n = -(c) / (b)
+  # eq2 = m * x + n
+  # eq2
+  # xRoot2 = roots(eq2, x)
+  # yRoot2 = roots(eq2, y)
+  # xRoot2
+
+
+</textarea>
+        <textarea id="output2" name="terminal" rows="5" cols="80" ></textarea>
+        <input name="execute" value="&#x25B6;" onclick="execute(2);" type="button">
+      </div>
+      </br>
+
+
+  <!-- <script src="javascripts/scale.fix.js"></script> -->
+
+  <script src="./js/jquery-3.1.1.min.js"></script>
+  <script src="./Algebrite/dist/algebrite.bundle-for-browser.js"></script>
+
+
+  <script type="text/javascript" language="javascript">
+    function execute(whichTerminal) {
+      var sandbox = $('sandbox');
+      var jsResult = $('jsResult');
+      try {
+        var textToBeExecuted = $('#terminal' + whichTerminal).val();
+        var result;
+        if (/Algebrite\.[a-z]/.test(textToBeExecuted) || /;[ \t]*$/.test(textToBeExecuted)) {
+          result = eval(textToBeExecuted);
+        } else {
+          result = Algebrite.run(textToBeExecuted);
+        }
+        //alert(result);
+        $('#output' + whichTerminal).val(result)
+      } catch (err) {
+        var errDesc = err;
+        errorBox.update('<h4>Error!<\/h4><code>' + errDesc + '<\/code>');
+        errorBox.show();
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>

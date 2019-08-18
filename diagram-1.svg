@@ -1,0 +1,219 @@
+<svg
+  id="drawing"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="-3.0560545921325684 -4.550180435180664 6.058708190917969 9.088071823120117"
+  preserveAspectRatio="xMidYMid slice"
+  version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:svgjs="http://svgjs.com/svgjs">
+  <defs id="SvgjsDefs1001"></defs>
+  <g id="Circles">
+    <circle id="c1" r="1" cx="-0.5" cy="0" class="Circle" element-id="1"></circle>
+    <circle id="c2" r="1" cx="0.5" cy="0" class="Circle" element-id="2"></circle>
+    <circle id="c8" r="2" cx="-0.5" cy="0" class="Circle" element-id="8"></circle>
+    <circle id="c9" r="2" cx="0.5" cy="0" class="Circle" element-id="9"></circle>
+    <circle id="c10" r="1" cx="0" cy="-0.866025" class="Circle" element-id="10"></circle>
+    <circle id="c11" r="1" cx="0" cy="0.866025" class="Circle" element-id="11"></circle>
+    <circle id="c13" r="1.1547" cx="0" cy="-0.288675" class="Circle" element-id="13"></circle>
+    <circle id="c16" r="0.5" cx="0" cy="0" class="Circle" element-id="16"></circle>
+    <circle id="c19" r="1.11803" cx="0" cy="0" class="Circle" element-id="19"></circle>
+  </g>
+  <g id="Lines">
+    <line id="i0" x1="-4" y1="0" x2="4" y2="0" class="Line" element-id="0"></line>
+    <line id="i3" x1="0" y1="-6" x2="0" y2="6" class="Line" element-id="3"></line>
+    <line id="i4" x1="2.9641" y1="-6" x2="-3.9641" y2="6" class="Line" element-id="4"></line>
+    <line id="i5" x1="-3.9641" y1="-6" x2="2.9641" y2="6" class="Line" element-id="5"></line>
+    <line id="i6" x1="-2.9641" y1="-6" x2="3.9641" y2="6" class="Line" element-id="6"></line>
+    <line id="i7" x1="3.9641" y1="-6" x2="-2.9641" y2="6" class="Line" element-id="7"></line>
+    <line id="i12" x1="9.8923" y1="-6" x2="-10.8923" y2="6" class="Line" element-id="12"></line>
+    <line id="i14" x1="-0.5" y1="-6" x2="-0.5" y2="6" class="Line" element-id="14"></line>
+    <line id="i15" x1="0.5" y1="-6" x2="0.5" y2="6" class="Line" element-id="15"></line>
+    <line id="i17" x1="-3" y1="-6" x2="3" y2="6" class="Line" element-id="17"></line>
+    <line id="i18" x1="3" y1="-6" x2="-3" y2="6" class="Line" element-id="18"></line>
+    <line id="i20" x1="-4" y1="-1" x2="4" y2="-1" class="Line" element-id="20"></line>
+    <line id="i21" x1="-4" y1="1" x2="4" y2="1" class="Line" element-id="21"></line>
+  </g>
+  <g id="Segments">
+    <line id="s0" x1="-2.5" y1="0" x2="-1.11803" y2="0" class="Segment" segment-id="0" stroke="#000000" stroke-width="0.027639399999999998"></line>
+    <line id="s1" x1="-1.11803" y1="0" x2="1.11803" y2="0" class="Segment" segment-id="1" stroke="#000000" stroke-width="0.044721399999999994"></line>
+    <line id="s2" x1="-1.11803" y1="0" x2="-0.5" y2="0" class="Segment" segment-id="2" stroke="#000000" stroke-width="0.012360679999999999"></line>
+    <line id="s3" x1="-0.5" y1="0" x2="0.5" y2="0" class="Segment" segment-id="3" stroke="#000000" stroke-width="0.02"></line>
+  </g>
+  <g id="Points">
+    <circle id="p0" r="0.025" cx="-0.5" cy="0" class="Point" point-id="0"></circle>
+    <circle id="p1" r="0.025" cx="0.5" cy="0" class="Point" point-id="1"></circle>
+    <circle id="p2" r="0.025" cx="-1.5" cy="0" class="Point" point-id="2"></circle>
+    <circle id="p3" r="0.025" cx="1.5" cy="0" class="Point" point-id="3"></circle>
+    <circle id="p4" r="0.025" cx="0" cy="-0.866025" class="Point" point-id="4"></circle>
+    <circle id="p5" r="0.025" cx="0" cy="0.866025" class="Point" point-id="5"></circle>
+    <circle id="p6" r="0.025" cx="0" cy="0" class="Point" point-id="6"></circle>
+    <circle id="p7" r="0.025" cx="-1" cy="0.866025" class="Point" point-id="7"></circle>
+    <circle id="p8" r="0.025" cx="-1" cy="-0.866025" class="Point" point-id="8"></circle>
+    <circle id="p9" r="0.025" cx="1" cy="0.866025" class="Point" point-id="9"></circle>
+    <circle id="p10" r="0.025" cx="1" cy="-0.866025" class="Point" point-id="10"></circle>
+    <circle id="p11" r="0.025" cx="false" cy="false" class="Point" point-id="11"></circle>
+    <circle id="p12" r="0.025" cx="-2.5" cy="0" class="Point" point-id="12"></circle>
+    <circle id="p13" r="0.025" cx="false" cy="false" class="Point" point-id="13"></circle>
+    <circle id="p14" r="0.025" cx="0" cy="-1.93649" class="Point" point-id="14"></circle>
+    <circle id="p15" r="0.025" cx="0" cy="1.93649" class="Point" point-id="15"></circle>
+    <circle id="p16" r="0.025" cx="0.5" cy="-1.73205" class="Point" point-id="16"></circle>
+    <circle id="p17" r="0.025" cx="-1.5" cy="1.73205" class="Point" point-id="17"></circle>
+    <circle id="p18" r="0.025" cx="-1.5" cy="-1.73205" class="Point" point-id="18"></circle>
+    <circle id="p19" r="0.025" cx="0.5" cy="1.73205" class="Point" point-id="19"></circle>
+    <circle id="p20" r="0.025" cx="-0.651388" cy="-1.99426" class="Point" point-id="20"></circle>
+    <circle id="p21" r="0.025" cx="1.15139" cy="1.12824" class="Point" point-id="21"></circle>
+    <circle id="p22" r="0.025" cx="1.15139" cy="-1.12824" class="Point" point-id="22"></circle>
+    <circle id="p23" r="0.025" cx="-0.651388" cy="1.99426" class="Point" point-id="23"></circle>
+    <circle id="p24" r="0.025" cx="2.5" cy="0" class="Point" point-id="24"></circle>
+    <circle id="p25" r="0.025" cx="0.651388" cy="-1.99426" class="Point" point-id="25"></circle>
+    <circle id="p26" r="0.025" cx="-1.15139" cy="1.12824" class="Point" point-id="26"></circle>
+    <circle id="p27" r="0.025" cx="-1.15139" cy="-1.12824" class="Point" point-id="27"></circle>
+    <circle id="p28" r="0.025" cx="0.651388" cy="1.99426" class="Point" point-id="28"></circle>
+    <circle id="p29" r="0.025" cx="-0.5" cy="-1.73205" class="Point" point-id="29"></circle>
+    <circle id="p30" r="0.025" cx="1.5" cy="1.73205" class="Point" point-id="30"></circle>
+    <circle id="p31" r="0.025" cx="1.5" cy="-1.73205" class="Point" point-id="31"></circle>
+    <circle id="p32" r="0.025" cx="-0.5" cy="1.73205" class="Point" point-id="32"></circle>
+    <circle id="p33" r="0.025" cx="0" cy="-1.86603" class="Point" point-id="33"></circle>
+    <circle id="p34" r="0.025" cx="0" cy="0.133975" class="Point" point-id="34"></circle>
+    <circle id="p35" r="0.025" cx="0" cy="-0.133975" class="Point" point-id="35"></circle>
+    <circle id="p36" r="0.025" cx="0" cy="1.86603" class="Point" point-id="36"></circle>
+    <circle id="p37" r="0.025" cx="0.366025" cy="-0.5" class="Point" point-id="37"></circle>
+    <circle id="p38" r="0.025" cx="-1.36603" cy="0.5" class="Point" point-id="38"></circle>
+    <circle id="p39" r="0.025" cx="0" cy="-0.288675" class="Point" point-id="39"></circle>
+    <circle id="p40" r="0.025" cx="0.25" cy="-0.433013" class="Point" point-id="40"></circle>
+    <circle id="p41" r="0.025" cx="1.23205" cy="-1" class="Point" point-id="41"></circle>
+    <circle id="p42" r="0.025" cx="-2.23205" cy="1" class="Point" point-id="42"></circle>
+    <circle id="p43" r="0.025" cx="1.92705" cy="-1.40126" class="Point" point-id="43"></circle>
+    <circle id="p44" r="0.025" cx="-1.42705" cy="0.535233" class="Point" point-id="44"></circle>
+    <circle id="p45" r="0.025" cx="false" cy="false" class="Point" point-id="45"></circle>
+    <circle id="p46" r="0.025" cx="false" cy="false" class="Point" point-id="46"></circle>
+    <circle id="p47" r="0.025" cx="-1.11803" cy="0" class="Point" point-id="47"></circle>
+    <circle id="p48" r="0.025" cx="1.11803" cy="0" class="Point" point-id="48"></circle>
+    <circle id="p49" r="0.025" cx="0" cy="-1.44338" class="Point" point-id="49"></circle>
+    <circle id="p50" r="0.025" cx="0.309017" cy="-1.40126" class="Point" point-id="50"></circle>
+    <circle id="p51" r="0.025" cx="-0.809017" cy="0.535233" class="Point" point-id="51"></circle>
+    <circle id="p52" r="0.025" cx="-0.309017" cy="-1.40126" class="Point" point-id="52"></circle>
+    <circle id="p53" r="0.025" cx="0.809017" cy="0.535233" class="Point" point-id="53"></circle>
+    <circle id="p54" r="0.025" cx="1.75" cy="-1.29904" class="Point" point-id="54"></circle>
+    <circle id="p55" r="0.025" cx="1.75" cy="-1.29904" class="Point" point-id="55"></circle>
+    <circle id="p56" r="0.025" cx="-1.75" cy="-1.29904" class="Point" point-id="56"></circle>
+    <circle id="p57" r="0.025" cx="-1.75" cy="-1.29904" class="Point" point-id="57"></circle>
+    <circle id="p58" r="0.025" cx="-1" cy="0.288675" class="Point" point-id="58"></circle>
+    <circle id="p59" r="0.025" cx="-0.5" cy="-1" class="Point" point-id="59"></circle>
+    <circle id="p60" r="0.025" cx="-0.5" cy="1" class="Point" point-id="60"></circle>
+    <circle id="p61" r="0.025" cx="-0.5" cy="false" class="Point" point-id="61"></circle>
+    <circle id="p62" r="0.025" cx="-0.5" cy="false" class="Point" point-id="62"></circle>
+    <circle id="p63" r="0.025" cx="-0.5" cy="-2" class="Point" point-id="63"></circle>
+    <circle id="p64" r="0.025" cx="-0.5" cy="2" class="Point" point-id="64"></circle>
+    <circle id="p65" r="0.025" cx="-0.5" cy="-1.32951" class="Point" point-id="65"></circle>
+    <circle id="p66" r="0.025" cx="-0.5" cy="0.752158" class="Point" point-id="66"></circle>
+    <circle id="p67" r="0.025" cx="0.5" cy="false" class="Point" point-id="67"></circle>
+    <circle id="p68" r="0.025" cx="0.5" cy="false" class="Point" point-id="68"></circle>
+    <circle id="p69" r="0.025" cx="0.5" cy="-1" class="Point" point-id="69"></circle>
+    <circle id="p70" r="0.025" cx="0.5" cy="1" class="Point" point-id="70"></circle>
+    <circle id="p71" r="0.025" cx="0.5" cy="-2" class="Point" point-id="71"></circle>
+    <circle id="p72" r="0.025" cx="0.5" cy="2" class="Point" point-id="72"></circle>
+    <circle id="p73" r="0.025" cx="0.5" cy="-1.32951" class="Point" point-id="73"></circle>
+    <circle id="p74" r="0.025" cx="0.5" cy="0.752158" class="Point" point-id="74"></circle>
+    <circle id="p75" r="0.025" cx="0" cy="-0.5" class="Point" point-id="75"></circle>
+    <circle id="p76" r="0.025" cx="0" cy="0.5" class="Point" point-id="76"></circle>
+    <circle id="p77" r="0.025" cx="-0.25" cy="-0.433013" class="Point" point-id="77"></circle>
+    <circle id="p78" r="0.025" cx="-0.25" cy="0.433013" class="Point" point-id="78"></circle>
+    <circle id="p79" r="0.025" cx="0.25" cy="0.433013" class="Point" point-id="79"></circle>
+    <circle id="p80" r="0.025" cx="3.5" cy="-3.4641" class="Point" point-id="80"></circle>
+    <circle id="p81" r="0.025" cx="3.5" cy="3.4641" class="Point" point-id="81"></circle>
+    <circle id="p82" r="0.025" cx="-3.5" cy="-3.4641" class="Point" point-id="82"></circle>
+    <circle id="p83" r="0.025" cx="-3.5" cy="3.4641" class="Point" point-id="83"></circle>
+    <circle id="p84" r="0.025" cx="0.3" cy="0.6" class="Point" point-id="84"></circle>
+    <circle id="p85" r="0.025" cx="-0.3" cy="-0.6" class="Point" point-id="85"></circle>
+    <circle id="p86" r="0.025" cx="-0.232051" cy="-0.464102" class="Point" point-id="86"></circle>
+    <circle id="p87" r="0.025" cx="3.23205" cy="6.4641" class="Point" point-id="87"></circle>
+    <circle id="p88" r="0.025" cx="-3.23205" cy="-6.4641" class="Point" point-id="88"></circle>
+    <circle id="p89" r="0.025" cx="0.232051" cy="0.464102" class="Point" point-id="89"></circle>
+    <circle id="p90" r="0.025" cx="-0.97178" cy="-1.94356" class="Point" point-id="90"></circle>
+    <circle id="p91" r="0.025" cx="0.77178" cy="1.54356" class="Point" point-id="91"></circle>
+    <circle id="p92" r="0.025" cx="-0.77178" cy="-1.54356" class="Point" point-id="92"></circle>
+    <circle id="p93" r="0.025" cx="0.97178" cy="1.94356" class="Point" point-id="93"></circle>
+    <circle id="p94" r="0.025" cx="-0.758721" cy="-1.51744" class="Point" point-id="94"></circle>
+    <circle id="p95" r="0.025" cx="0.0659004" cy="0.131801" class="Point" point-id="95"></circle>
+    <circle id="p96" r="0.025" cx="-0.0659004" cy="-0.131801" class="Point" point-id="96"></circle>
+    <circle id="p97" r="0.025" cx="0.758721" cy="1.51744" class="Point" point-id="97"></circle>
+    <circle id="p98" r="0.025" cx="-0.112005" cy="-0.224009" class="Point" point-id="98"></circle>
+    <circle id="p99" r="0.025" cx="-0.62863" cy="-1.25726" class="Point" point-id="99"></circle>
+    <circle id="p100" r="0.025" cx="0.39769" cy="0.79538" class="Point" point-id="100"></circle>
+    <circle id="p101" r="0.025" cx="-0.223607" cy="-0.447214" class="Point" point-id="101"></circle>
+    <circle id="p102" r="0.025" cx="0.223607" cy="0.447214" class="Point" point-id="102"></circle>
+    <circle id="p103" r="0.025" cx="0.3" cy="-0.6" class="Point" point-id="103"></circle>
+    <circle id="p104" r="0.025" cx="-0.3" cy="0.6" class="Point" point-id="104"></circle>
+    <circle id="p105" r="0.025" cx="3.23205" cy="-6.4641" class="Point" point-id="105"></circle>
+    <circle id="p106" r="0.025" cx="-0.232051" cy="0.464102" class="Point" point-id="106"></circle>
+    <circle id="p107" r="0.025" cx="0.232051" cy="-0.464102" class="Point" point-id="107"></circle>
+    <circle id="p108" r="0.025" cx="-3.23205" cy="6.4641" class="Point" point-id="108"></circle>
+    <circle id="p109" r="0.025" cx="0.77178" cy="-1.54356" class="Point" point-id="109"></circle>
+    <circle id="p110" r="0.025" cx="-0.97178" cy="1.94356" class="Point" point-id="110"></circle>
+    <circle id="p111" r="0.025" cx="0.97178" cy="-1.94356" class="Point" point-id="111"></circle>
+    <circle id="p112" r="0.025" cx="-0.77178" cy="1.54356" class="Point" point-id="112"></circle>
+    <circle id="p113" r="0.025" cx="0.758721" cy="-1.51744" class="Point" point-id="113"></circle>
+    <circle id="p114" r="0.025" cx="-0.0659004" cy="0.131801" class="Point" point-id="114"></circle>
+    <circle id="p115" r="0.025" cx="0.0659004" cy="-0.131801" class="Point" point-id="115"></circle>
+    <circle id="p116" r="0.025" cx="-0.758721" cy="1.51744" class="Point" point-id="116"></circle>
+    <circle id="p117" r="0.025" cx="0.202914" cy="-0.405827" class="Point" point-id="117"></circle>
+    <circle id="p118" r="0.025" cx="0.62863" cy="-1.25726" class="Point" point-id="118"></circle>
+    <circle id="p119" r="0.025" cx="-0.39769" cy="0.79538" class="Point" point-id="119"></circle>
+    <circle id="p120" r="0.025" cx="0.223607" cy="-0.447214" class="Point" point-id="120"></circle>
+    <circle id="p121" r="0.025" cx="-0.223607" cy="0.447214" class="Point" point-id="121"></circle>
+    <circle id="p122" r="0.025" cx="0" cy="-1.11803" class="Point" point-id="122"></circle>
+    <circle id="p123" r="0.025" cx="0" cy="1.11803" class="Point" point-id="123"></circle>
+    <circle id="p124" r="0.025" cx="0.140388" cy="-1.10918" class="Point" point-id="124"></circle>
+    <circle id="p125" r="0.025" cx="-0.890388" cy="0.676172" class="Point" point-id="125"></circle>
+    <circle id="p126" r="0.025" cx="-0.890388" cy="-0.676172" class="Point" point-id="126"></circle>
+    <circle id="p127" r="0.025" cx="0.140388" cy="1.10918" class="Point" point-id="127"></circle>
+    <circle id="p128" r="0.025" cx="-0.140388" cy="-1.10918" class="Point" point-id="128"></circle>
+    <circle id="p129" r="0.025" cx="0.890388" cy="0.676172" class="Point" point-id="129"></circle>
+    <circle id="p130" r="0.025" cx="0.890388" cy="-0.676172" class="Point" point-id="130"></circle>
+    <circle id="p131" r="0.025" cx="-0.140388" cy="1.10918" class="Point" point-id="131"></circle>
+    <circle id="p132" r="0.025" cx="2.5" cy="-2.23607" class="Point" point-id="132"></circle>
+    <circle id="p133" r="0.025" cx="2.5" cy="2.23607" class="Point" point-id="133"></circle>
+    <circle id="p134" r="0.025" cx="-2.5" cy="-2.23607" class="Point" point-id="134"></circle>
+    <circle id="p135" r="0.025" cx="-2.5" cy="2.23607" class="Point" point-id="135"></circle>
+    <circle id="p136" r="0.025" cx="0.818729" cy="-0.761369" class="Point" point-id="136"></circle>
+    <circle id="p137" r="0.025" cx="-1.06873" cy="0.328356" class="Point" point-id="137"></circle>
+    <circle id="p138" r="0.025" cx="false" cy="-1" class="Point" point-id="138"></circle>
+    <circle id="p139" r="0.025" cx="false" cy="-1" class="Point" point-id="139"></circle>
+    <circle id="p140" r="0.025" cx="0" cy="-1" class="Point" point-id="140"></circle>
+    <circle id="p141" r="0.025" cx="0.0773503" cy="-1" class="Point" point-id="141"></circle>
+    <circle id="p142" r="0.025" cx="-1.07735" cy="-1" class="Point" point-id="142"></circle>
+    <circle id="p143" r="0.025" cx="-0.0773503" cy="-1" class="Point" point-id="143"></circle>
+    <circle id="p144" r="0.025" cx="1.07735" cy="-1" class="Point" point-id="144"></circle>
+    <circle id="p145" r="0.025" cx="-2.23205" cy="-1" class="Point" point-id="145"></circle>
+    <circle id="p146" r="0.025" cx="-1.23205" cy="-1" class="Point" point-id="146"></circle>
+    <circle id="p147" r="0.025" cx="2.23205" cy="-1" class="Point" point-id="147"></circle>
+    <circle id="p148" r="0.025" cx="false" cy="-1" class="Point" point-id="148"></circle>
+    <circle id="p149" r="0.025" cx="false" cy="-1" class="Point" point-id="149"></circle>
+    <circle id="p150" r="0.025" cx="false" cy="-1" class="Point" point-id="150"></circle>
+    <circle id="p151" r="0.025" cx="false" cy="-1" class="Point" point-id="151"></circle>
+    <circle id="p152" r="0.025" cx="false" cy="-1" class="Point" point-id="152"></circle>
+    <circle id="p153" r="0.025" cx="false" cy="-1" class="Point" point-id="153"></circle>
+    <circle id="p154" r="0.025" cx="-0.866025" cy="-1" class="Point" point-id="154"></circle>
+    <circle id="p155" r="0.025" cx="0.866025" cy="-1" class="Point" point-id="155"></circle>
+    <circle id="p156" r="0.025" cx="false" cy="1" class="Point" point-id="156"></circle>
+    <circle id="p157" r="0.025" cx="false" cy="1" class="Point" point-id="157"></circle>
+    <circle id="p158" r="0.025" cx="0" cy="1" class="Point" point-id="158"></circle>
+    <circle id="p159" r="0.025" cx="-1.07735" cy="1" class="Point" point-id="159"></circle>
+    <circle id="p160" r="0.025" cx="0.0773503" cy="1" class="Point" point-id="160"></circle>
+    <circle id="p161" r="0.025" cx="1.07735" cy="1" class="Point" point-id="161"></circle>
+    <circle id="p162" r="0.025" cx="-0.0773503" cy="1" class="Point" point-id="162"></circle>
+    <circle id="p163" r="0.025" cx="1.23205" cy="1" class="Point" point-id="163"></circle>
+    <circle id="p164" r="0.025" cx="-1.23205" cy="1" class="Point" point-id="164"></circle>
+    <circle id="p165" r="0.025" cx="2.23205" cy="1" class="Point" point-id="165"></circle>
+    <circle id="p166" r="0.025" cx="false" cy="1" class="Point" point-id="166"></circle>
+    <circle id="p167" r="0.025" cx="false" cy="1" class="Point" point-id="167"></circle>
+    <circle id="p168" r="0.025" cx="false" cy="1" class="Point" point-id="168"></circle>
+    <circle id="p169" r="0.025" cx="false" cy="1" class="Point" point-id="169"></circle>
+    <circle id="p170" r="0.025" cx="false" cy="1" class="Point" point-id="170"></circle>
+    <circle id="p171" r="0.025" cx="false" cy="1" class="Point" point-id="171"></circle>
+    <circle id="p172" r="0.025" cx="-0.866025" cy="1" class="Point" point-id="172"></circle>
+    <circle id="p173" r="0.025" cx="0.866025" cy="1" class="Point" point-id="173"></circle>
+  </g>
+</svg>

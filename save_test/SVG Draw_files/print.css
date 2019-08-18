@@ -1,0 +1,12 @@
+.noPrint {
+    display: none;
+}
+
+@page {
+    margin: 0;
+    size: 1920px 1080px landscape;
+}
+
+body{
+  margin: 0;
+}

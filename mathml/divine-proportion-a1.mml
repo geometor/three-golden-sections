@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mtable>
+   <mtr>
+    <mtd>
+     <mstyle mathsize="21pt">
+      <mstyle color="fuchsia">
+       <mi mathvariant="normal">ϕ</mi>
+      </mstyle>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mfrac>
+       <mi>a</mi>
+       <mi>b</mi>
+      </mfrac>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mi>b</mi>
+       <mrow>
+        <mi>a</mi>
+        <mo stretchy="false">+</mo>
+        <mi>b</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mstyle color="green">
+      <mo stretchy="false">⋯</mo>
+     </mstyle>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mrow>
+       <mi>a</mi>
+       <mo stretchy="false">=</mo>
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mrow>
+      <mi>;</mi>
+      <mrow>
+       <mi>b</mi>
+       <mo stretchy="false">=</mo>
+       <mn>1</mn>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mfrac>
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+       <mn>1</mn>
+      </mfrac>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mn>1</mn>
+       <mrow>
+        <mstyle color="fuchsia">
+         <mi mathvariant="normal">ϕ</mi>
+        </mstyle>
+        <mo stretchy="false">+</mo>
+        <mn>1</mn>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mn>1</mn>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <mstyle color="fuchsia">
+         <mi mathvariant="normal">ϕ</mi>
+        </mstyle>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mn>1</mn>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mrow>
+          <mn>1</mn>
+          <mo stretchy="false">+</mo>
+          <mstyle color="fuchsia">
+           <mi mathvariant="normal">ϕ</mi>
+          </mstyle>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mstyle mathsize="21pt">
+       <mstyle color="fuchsia">
+        <mi mathvariant="normal">ϕ</mi>
+       </mstyle>
+      </mstyle>
+      <mo stretchy="false">=</mo>
+      <mfrac>
+       <mn>1</mn>
+       <mrow>
+        <mn>1</mn>
+        <mo stretchy="false">+</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mrow>
+          <mn>1</mn>
+          <mo stretchy="false">+</mo>
+          <mfrac>
+           <mn>1</mn>
+           <mrow>
+            <mn>1</mn>
+            <mo stretchy="false">+</mo>
+            <mstyle color="fuchsia">
+             <mi mathvariant="normal">ϕ</mi>
+            </mstyle>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mtd>
+   </mtr>
+  </mtable>
+  <annotation encoding="StarMath 5.0">size 21 { color magenta {%phi} } newline
+
+newline
+{  
+	{a} over {b} = { b } over { a + b } 
+}newline 
+
+
+newline
+color green { dotsaxis } newline
+newline
+{  
+	{a} = color magenta {%phi} ; b = 1 
+}newline 
+newline
+{ 
+	color magenta {%phi}} over {1} 
+	= { 1 } over { color magenta {%phi} + 1 
+}newline 
+
+
+
+newline
+
+
+{ 
+	size 21 { color magenta {%phi} }
+	 = 
+	{ 1 } over { 1 + color magenta {%phi} } 
+}  newline
+
+newline
+
+{ 
+	size 21 { color magenta {%phi} }
+ 	= 
+	{ 1 } over { 1 + { 1 } over { 1 + color magenta {%phi} }  } 
+} newline 
+
+newline
+{ 
+	size 21 { color magenta {%phi} }
+	= 
+	{ 1 } 
+	over 
+	{ 1 + { 1 } 
+		over { 1 + { 1 } 
+			over { 1 + color magenta {%phi} }  
+		} 
+	} 
+} newline </annotation>
+ </semantics>
+</math>

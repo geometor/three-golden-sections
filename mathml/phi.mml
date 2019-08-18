@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mfrac>
+   <mrow>
+    <msqrt>
+     <mn>5</mn>
+    </msqrt>
+    <mo stretchy="false">±</mo>
+    <mn>1</mn>
+   </mrow>
+   <mn>2</mn>
+  </mfrac>
+  <annotation encoding="StarMath 5.0"> {sqrt{5} +-1} over {2} 
+   </annotation>
+ </semantics>
+</math>

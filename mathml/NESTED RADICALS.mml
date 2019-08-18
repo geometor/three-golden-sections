@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mrow>
+   <mi>ϕ</mi>
+   <mi>⩵</mi>
+   <msqrt>
+    <mrow>
+     <mn>1</mn>
+     <mo stretchy="false">+</mo>
+     <msqrt>
+      <mrow>
+       <mn>1</mn>
+       <mo stretchy="false">+</mo>
+       <msqrt>
+        <mrow>
+         <mn>1</mn>
+         <mo stretchy="false">+</mo>
+         <msqrt>
+          <mrow>
+           <mn>1</mn>
+           <mo stretchy="false">+</mo>
+           <mo stretchy="false">…</mo>
+          </mrow>
+         </msqrt>
+        </mrow>
+       </msqrt>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </msqrt>
+  </mrow>
+  <annotation encoding="StarMath 5.0">{ϕ ⩵ sqrt { {1 + sqrt { {1 + sqrt { {1 + sqrt { {1 +  dotslow} }} }} }} }}</annotation>
+ </semantics>
+</math>
