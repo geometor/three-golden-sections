@@ -3,6 +3,11 @@ var tl ;
 $( document ).ready(function() {
     console.log( "ready!" );
     main();
+
+    // tl.timeScale(2);
+    // tl.play();
+    // tl.tweenFromTo( fromThisLabel, toThisLabel );
+
 });
 
 function main() {
@@ -280,8 +285,5 @@ function main() {
   //great for overlapping
 
 
-  // tl.timeScale(2);
-  tl.play();
-  // tl.tweenFromTo( fromThisLabel, toThisLabel );
 
 }
