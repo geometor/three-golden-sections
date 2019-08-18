@@ -183,6 +183,7 @@ function sweepRadius(circleId, radiusId) {
             strokeWidth: 2,
             strokeDasharray: len + " " + len,
             strokeDashoffset: 0
+            ease: Expo.easeInOut,
         }, timeOffset
     );
 
