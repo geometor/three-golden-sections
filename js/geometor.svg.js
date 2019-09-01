@@ -1,6 +1,9 @@
 function hideAllElements() {
 
-    tl.set($('.Line,.Point,.Circle,.Triangle,.Quadrilateral,.Segment,.Sector'), {
+    // tl.set( $('.Line,.Point,.Circle,.Triangle,.Quadrilateral,.Segment,.Sector'), {
+    //     autoAlpha: 0,
+    // }, "0");
+    tl.set( ".Line,.Point,.Circle,.Triangle,.Quadrilateral,.Segment,.Sector", {
         autoAlpha: 0,
     }, "0");
 
@@ -216,8 +219,6 @@ function hideElements(id) {
         1, {
             opacity: .2,
             fillOpacity: 0,
-
-
         }, .1
     );
 
@@ -354,20 +355,4 @@ function getStyle(oElm, strCssRule) {
         strValue = oElm.currentStyle[strCssRule];
     }
     return strValue;
-}
-
-
-function animateLogo() {
-
-
-    strokeLine(".logo.G");
-    strokeLine(".logo.E");
-    strokeLine(".logo.O");
-    strokeLine(".logo.M");
-    strokeLine(".logo.E2");
-    strokeLine(".logo.T");
-    strokeLine(".logo.O2");
-    strokeLine(".logo.R");
-
-
 }
