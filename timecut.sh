@@ -7,4 +7,4 @@ node node_modules/timecut/cli.js "logo.html" \
   --start-delay=0 \
   --frame-cache timecut \
   --pix-fmt=yuv420p \
-  --output=logo.mp4
+  --output=logo3.mp4
