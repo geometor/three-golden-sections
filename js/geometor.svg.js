@@ -1,3 +1,5 @@
+const OFFSET = 20;
+
 function hideAllElements() {
 
     // tl.set( $('.Line,.Point,.Circle,.Triangle,.Quadrilateral,.Segment,.Sector'), {
@@ -20,6 +22,7 @@ function setPoint(id, position) {
         }, {
             autoAlpha: 1,
             scale: 1,
+            fillOpacity: 1
         },
         position
     );
@@ -39,7 +42,7 @@ function setLine(id) {
 }
 
 function strokeLine(id) {
-    var len = $(id).get(0).getTotalLength();
+    var len = document.querySelector(id).getTotalLength();
 
     tl.to(
         id,
@@ -49,11 +52,10 @@ function strokeLine(id) {
     ).fromTo(
         id,
         .5, {
-            strokeDasharray: len + " " + len,
-            strokeDashoffset: len + 1,
+            strokeDasharray: len + OFFSET,
+            strokeDashoffset: len + OFFSET,
 
         }, {
-            strokeDasharray: len + " " + len,
             strokeDashoffset: 0,
             ease: Power2.easeOut,
         }
@@ -61,14 +63,14 @@ function strokeLine(id) {
 }
 
 function unStrokeLine(id) {
-    var len = $(id).get(0).getTotalLength();
+    var len = document.querySelector(id).getTotalLength();
 
     tl.to(
         id,
         1,  {
             scale: 1,
-            strokeDasharray: len + " " + len,
-            strokeDashoffset: len + 1,
+            strokeDasharray: len + OFFSET,
+            strokeDashoffset: len + OFFSET,
             ease: Power2.easeOut,
 
         }
@@ -81,20 +83,19 @@ function unStrokeLine(id) {
 }
 
 function strokeLineReverse(id) {
-    var len = $(id).get(0).getTotalLength();
+    var len = document.querySelector(id).getTotalLength();
 
     tl.fromTo(
         id,
         .5, {
             scale: 1,
             autoAlpha: 1,
-            strokeDasharray: len + " " + len,
-            strokeDashoffset: -len + 1,
+            strokeDasharray: len + OFFSET,
+            strokeDashoffset: -len - OFFSET,
             transformOrigin: "50% 50%",
         }, {
             scale: 1,
             autoAlpha: 1,
-            strokeDasharray: len + " " + len,
             strokeDashoffset: 0,
             transformOrigin: "50% 50%",
         }
@@ -102,7 +103,7 @@ function strokeLineReverse(id) {
 }
 
 function strokeLineCenter(id) {
-    var len = $(id).get(0).getTotalLength();
+    var len = document.querySelector(id).getTotalLength();
 
     tl.fromTo(
         id,
@@ -164,11 +165,11 @@ function setPolygon(id) {
 }
 
 function sweepRadius(circleId, radiusId) {
-    var circle = $(circleId);
-    var len = $(circleId).get(0).getTotalLength();
+    var circle = document.querySelector(circleId);
+    var len = circle.getTotalLength();
 
-    var cx = parseInt(circle[0].getBBox().x) + parseInt(circle[0].getBBox().width / 2);
-    var cy = parseInt(circle[0].getBBox().y) + parseInt(circle[0].getBBox().height / 2);
+    var cx = parseInt(circle.getBBox().x) + parseInt(circle.getBBox().width / 2);
+    var cy = parseInt(circle.getBBox().y) + parseInt(circle.getBBox().height / 2);
     var center = cx + ' ' + cy;
 
     var timeOffset;
@@ -190,15 +191,12 @@ function sweepRadius(circleId, radiusId) {
         1, {
             autoAlpha: 1,
             fillOpacity: 0,
-            scale: 1,
-            strokeDasharray: len + " " + len,
-            strokeDashoffset: len
+            strokeDasharray: len + OFFSET,
+            strokeDashoffset: len + OFFSET
         }, {
             autoAlpha: 1,
             fillOpacity: 0,
-            scale: 1,
             strokeWidth: 2,
-            strokeDasharray: len + " " + len,
             strokeDashoffset: 0,
             ease: Expo.easeInOut,
         }, timeOffset
@@ -217,17 +215,26 @@ function hideElements(id) {
     tl.staggerTo(
         id,
         1, {
-            opacity: .2,
+          autoAlpha: 0,
+
+        }, .1
+    );
+}
+
+function fadeElements(id) {
+    tl.staggerTo(
+        id,
+        1, {
+            opacity: .4,
             fillOpacity: 0,
         }, .1
     );
-
 }
 
 //can take multiple items
 function zoomToElement(id, margin, scale) {
 
-    var elements = $(id);
+    var elements = document.querySelectorAll(id);
     var topX, topY, bottomX, bottomY;
     var start = true;
     //margin = 0;
