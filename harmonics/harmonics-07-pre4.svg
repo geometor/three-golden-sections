@@ -4,8 +4,6 @@
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:ev="http://www.w3.org/2001/xml-events"
-     width="67.69805555555556cm"
-     height="41.66305555555556cm"
      viewBox="0 0 1339 824"
      >
 <title>
@@ -14,20 +12,8 @@
 * {
   fill-rule: nonzero;
   stroke-linejoin: round;
-  stroke-opacity: 1;
-
-}
-.point {
-  stroke: black;
-  stroke-width: 2;
-  fill: white;
-  fill-opacity: 1;
-}
-
-.point.bottom {
-  stroke: #FC0;
-  stroke-width: 10;
-  stroke-opacity: 0.5;
+  <!-- stroke-opacity: 1;
+  --> stroke-width: 0.1em;
 }
 
 text {
@@ -37,25 +23,43 @@ text {
   font-weight: normal;
   stroke: none;
   fill: #ffcc66;
-  font-size: 12.000;
+  font-size: 1em;
+  opacity: 0;
   x: 0;
   y: 0;
 }
+path {
+  stroke-opacity: 0.5;
+}
 
+.point path {
+  stroke: black;
+  stroke-width: 2;
+  stroke-opacity: 1;
+  fill: white;
+  fill-opacity: 1;
+}
+
+.point.bottom path {
+  stroke: #FC0;
+  stroke-width: 8;
+  stroke-opacity: 0;
+}
 
 .line {
-  stroke: #808080;
-  stroke-width: 1.5;
+  stroke: #FFF;
   stroke-dasharray: 1.5 3;
-  stroke-opacity: 0.3;
   stroke-linejoin: round;
   stroke-linecap: butt;
+}
+.line > path {
+  /* stroke-opacity: 0.5; */
 }
 
 .circle {
   stroke: #808080;
   stroke-width: 3;
-  stroke-opacity: 0.3;
+  /* stroke-opacity: 0.3; */
   stroke-linejoin: round;
   stroke-linecap: butt;
 
@@ -68,43 +72,79 @@ text {
   stroke-linejoin: round;
   stroke-linecap: butt;
 
-  fill: none;
+  fill: #CCC;
+  fill-opacity: 0.3;
+  opacity: 0;
 }
 .bisector {
   stroke-dasharray: 13, 5, 3, 5;
 
 }
-.secondary {
-  stroke-dasharray: 3 5;
-}
-.root3 {
-  stroke: #93C;
-  stroke-width: 5;
-  fill: #93C;
-  fill-opacity: 0.2;
-  stroke-opacity: 0.7;
-}
-.segment {
+.segment path {
   stroke-width: 5;
   stroke-linecap: round;
+  stroke-opacity: 0.3;
+  opacity: 0;
 }
-.a {
+.a path {
   stroke-width: 3;
 }
-.b {
+.b path {
   stroke-width: 5;
 }
-[class~="a+b"] {
+[class~="a+b"] path {
   stroke-width: 8;
 }
-[class~="a+2b"] {
+[class~="a+2b"] path {
   stroke-width: 13;
 }
 
-#sections .segment {
+.segment path {
   stroke: #C90;
+  stroke-opacity: 0;
+  fill-opacity: 0;
+}
+.golden path {
   stroke-opacity: 0.8;
-  fill: #C90;
+}
+
+.golden text {
+  opacity: 0.8;
+}
+
+.s-ff6699 path {
+  stroke: #ff6699;
+  stroke-dasharray: none;
+}
+
+.s-66ccff path {
+  stroke: #66ccff;
+}
+
+.s-cc66ff path {
+  stroke: #cc66ff;
+}
+
+#c-d path {
+  /* stroke: none; */
+}
+
+[id^="sg-g001"] .segment path {
+  stroke-opacity: 0.8;
+  opacity: 0.8;
+}
+[id^="sg-g001"] text {
+  stroke-opacity: 0.8;
+  opacity: 0.8;
+}
+
+#pt-U .bottom path{
+  stroke-opacity: 0.8;
+  opacity: 0.8;
+}
+#pt-V .bottom path{
+  stroke-opacity: 0.8;
+  opacity: 0.8;
 }
 </style>
 <g stroke-linejoin="miter" stroke-dashoffset="0.0000" stroke-dasharray="none" stroke-width="1.0000" stroke-miterlimit="10.000" stroke-linecap="square">
@@ -390,140 +430,140 @@ text {
 </g> 
 </g> 
 <g id="sg-t1c">
-<g class="segment ff6699">
+<g class="segment s-ff6699">
   <path d="M 528.55 498.83 L 810.45 498.83"/>
 <title>Segment t1c</title>
 <desc>Segment t1c: Segment J, K</desc>
 </g> 
 </g> 
 <g id="sg-t1b">
-<g class="segment ff6699">
+<g class="segment s-ff6699">
   <path d="M 669.50 254.70 L 528.55 498.83"/>
 <title>Segment t1b</title>
 <desc>Segment t1b: Segment D, J</desc>
 </g> 
 </g> 
 <g id="sg-t1a">
-<g class="segment ff6699">
+<g class="segment s-ff6699">
   <path d="M 810.45 498.83 L 669.50 254.70"/>
 <title>Segment t1a</title>
 <desc>Segment t1a: Segment K, D</desc>
 </g> 
 </g> 
 <g id="sg-y8h">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 827.08 376.76 L 783.53 301.32"/>
 <title>Segment y8h</title>
 <desc>Segment y8h: Segment N, Q</desc>
 </g> 
 </g> 
 <g id="sg-y9a">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 669.50 254.70 L 555.47 301.32"/>
 <title>Segment y9a</title>
 <desc>Segment y9a: Segment D, O</desc>
 </g> 
 </g> 
 <g id="sg-y9b">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 555.47 301.32 L 511.92 376.76"/>
 <title>Segment y9b</title>
 <desc>Segment y9b: Segment O, M</desc>
 </g> 
 </g> 
 <g id="sg-y9c">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 511.92 376.76 L 528.55 498.83"/>
 <title>Segment y9c</title>
 <desc>Segment y9c: Segment M, J</desc>
 </g> 
 </g> 
 <g id="sg-y9d">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 528.55 498.83 L 625.94 574.27"/>
 <title>Segment y9d</title>
 <desc>Segment y9d: Segment J, R</desc>
 </g> 
 </g> 
 <g id="sg-y9e">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 625.94 574.27 L 713.06 574.27"/>
 <title>Segment y9e</title>
 <desc>Segment y9e: Segment R, P</desc>
 </g> 
 </g> 
 <g id="sg-y9f">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 713.06 574.27 L 810.45 498.83"/>
 <title>Segment y9f</title>
 <desc>Segment y9f: Segment P, K</desc>
 </g> 
 </g> 
 <g id="sg-y9g">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 810.45 498.83 L 827.08 376.76"/>
 <title>Segment y9g</title>
 <desc>Segment y9g: Segment K, N</desc>
 </g> 
 </g> 
 <g id="sg-y9i">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 783.53 301.32 L 669.50 254.70"/>
 <title>Segment y9i</title>
 <desc>Segment y9i: Segment Q, D</desc>
 </g> 
 </g> 
 <g id="sg-ch_a1">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 669.50 254.70 L 555.47 301.32"/>
 <title>Segment ch_a1</title>
 <desc>Segment ch_a1: Segment D, O</desc>
 </g> 
 </g> 
 <g id="sg-ch_a2">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 669.50 254.70 L 783.53 301.32"/>
 <title>Segment ch_a2</title>
 <desc>Segment ch_a2: Segment D, Q</desc>
 </g> 
 </g> 
 <g id="sg-ch_b1">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 669.50 254.70 L 511.92 376.76"/>
 <title>Segment ch_b1</title>
 <desc>Segment ch_b1: Segment D, M</desc>
 </g> 
 </g> 
 <g id="sg-ch_b2">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 669.50 254.70 L 827.08 376.76"/>
 <title>Segment ch_b2</title>
 <desc>Segment ch_b2: Segment D, N</desc>
 </g> 
 </g> 
 <g id="sg-ch_c1">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 669.50 254.70 L 528.55 498.83"/>
 <title>Segment ch_c1</title>
 <desc>Segment ch_c1: Segment D, J</desc>
 </g> 
 </g> 
 <g id="sg-ch_c2">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 669.50 254.70 L 810.45 498.83"/>
 <title>Segment ch_c2</title>
 <desc>Segment ch_c2: Segment D, K</desc>
 </g> 
 </g> 
 <g id="sg-ch_d1">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 669.50 254.70 L 625.94 574.27"/>
 <title>Segment ch_d1</title>
 <desc>Segment ch_d1: Segment D, R</desc>
 </g> 
 </g> 
 <g id="sg-ch_d2">
-<g class="segment 66ccff">
+<g class="segment s-66ccff">
   <path d="M 669.50 254.70 L 713.06 574.27"/>
 <title>Segment ch_d2</title>
 <desc>Segment ch_d2: Segment D, P</desc>
@@ -532,7 +572,7 @@ text {
 </g>
 <g id="sections">
 <g id="sg-g000a_1">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 511.92 376.76 L 599.03 376.76"/>
 <title>Segment g000a_1</title>
 <desc>Segment g000a_1: sectionABA(M, A, B, N)</desc>
@@ -542,7 +582,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g000b">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 599.03 376.76 L 739.97 376.76"/>
 <title>Segment g000b</title>
 <desc>Segment g000b: sectionABA(M, A, B, N)</desc>
@@ -552,7 +592,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g000a_2">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 739.97 376.76 L 827.08 376.76"/>
 <title>Segment g000a_2</title>
 <desc>Segment g000a_2: sectionABA(M, A, B, N)</desc>
@@ -562,7 +602,7 @@ text {
 </g> 
 </g> 
 <g id="sg-gc001a_1">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 555.47 301.32 L 669.50 254.70"/>
 <title>Segment gc001a_1</title>
 <desc>Segment gc001a_1: sectionAB(O, D, M)</desc>
@@ -572,7 +612,7 @@ text {
 </g> 
 </g> 
 <g id="sg-gc001b_1">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 669.50 254.70 L 511.92 376.76"/>
 <title>Segment gc001b_1</title>
 <desc>Segment gc001b_1: sectionAB(O, D, M)</desc>
@@ -582,7 +622,7 @@ text {
 </g> 
 </g> 
 <g id="sg-gc001a_2">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 783.53 301.32 L 669.50 254.70"/>
 <title>Segment gc001a_2</title>
 <desc>Segment gc001a_2: sectionAB(Q, D, N)</desc>
@@ -592,7 +632,7 @@ text {
 </g> 
 </g> 
 <g id="sg-gc001b_2">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 669.50 254.70 L 827.08 376.76"/>
 <title>Segment gc001b_2</title>
 <desc>Segment gc001b_2: sectionAB(Q, D, N)</desc>
@@ -602,14 +642,14 @@ text {
 </g> 
 </g> 
 <g id="sg-gc002a_1">
-<g class="segment ffcc66">
+<g class="segment s-ffcc66">
   <path d="M 511.92 376.76 L 669.50 254.70"/>
 <title>Segment gc002a_1</title>
 <desc>Segment gc002a_1: sectionAB(M, D, R)</desc>
 </g> 
 </g> 
 <g id="sg-gc002b_1">
-<g class="segment ffcc66">
+<g class="segment s-ffcc66">
   <path d="M 669.50 254.70 L 625.94 574.27"/>
 <title>Segment gc002b_1</title>
 <desc>Segment gc002b_1: sectionAB(M, D, R)</desc>
@@ -619,14 +659,14 @@ text {
 </g> 
 </g> 
 <g id="sg-gc002a_2">
-<g class="segment ffcc66">
+<g class="segment s-ffcc66">
   <path d="M 827.08 376.76 L 669.50 254.70"/>
 <title>Segment gc002a_2</title>
 <desc>Segment gc002a_2: sectionAB(N, D, P)</desc>
 </g> 
 </g> 
 <g id="sg-gc002b_2">
-<g class="segment ffcc66">
+<g class="segment s-ffcc66">
   <path d="M 669.50 254.70 L 713.06 574.27"/>
 <title>Segment gc002b_2</title>
 <desc>Segment gc002b_2: sectionAB(N, D, P)</desc>
@@ -636,7 +676,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g001c_1">
-<g class="segment ffcc66 a+b">
+<g class="segment s-ffcc66 a+b">
   <path d="M 528.55 498.83 L 354.33 498.83"/>
 <title>Segment g001c_1</title>
 <desc>Segment g001c_1: sectionAB(J, T, S)</desc>
@@ -646,7 +686,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g001d_1">
-<g class="segment ffcc66 a+2b">
+<g class="segment s-ffcc66 a+2b">
   <path d="M 354.33 498.83 L 72.437 498.83"/>
 <title>Segment g001d_1</title>
 <desc>Segment g001d_1: sectionAB(J, T, S)</desc>
@@ -656,7 +696,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g001c_2">
-<g class="segment ffcc66 a+b">
+<g class="segment s-ffcc66 a+b">
   <path d="M 810.45 498.83 L 984.67 498.83"/>
 <title>Segment g001c_2</title>
 <desc>Segment g001c_2: sectionAB(K, Z, A_1)</desc>
@@ -666,7 +706,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g001d_2">
-<g class="segment ffcc66 a+2b">
+<g class="segment s-ffcc66 a+2b">
   <path d="M 984.67 498.83 L 1266.6 498.83"/>
 <title>Segment g001d_2</title>
 <desc>Segment g001d_2: sectionAB(K, Z, A_1)</desc>
@@ -676,7 +716,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g001b_1">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 528.55 498.83 L 636.23 498.83"/>
 <title>Segment g001b_1</title>
 <desc>Segment g001b_1: sectionBAB(J, U, V, K)</desc>
@@ -686,7 +726,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g001a">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 636.23 498.83 L 702.77 498.83"/>
 <title>Segment g001a</title>
 <desc>Segment g001a: sectionBAB(J, U, V, K)</desc>
@@ -696,7 +736,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g001b_2">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 702.77 498.83 L 810.45 498.83"/>
 <title>Segment g001b_2</title>
 <desc>Segment g001b_2: sectionBAB(J, U, V, K)</desc>
@@ -706,7 +746,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g002c_1">
-<g class="segment ffcc66 a+b">
+<g class="segment s-ffcc66 a+b">
   <path d="M 739.97 376.76 L 696.42 452.20"/>
 <title>Segment g002c_1</title>
 <desc>Segment g002c_1: sectionAB(B, D_1, R)</desc>
@@ -716,7 +756,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g002d_1">
-<g class="segment ffcc66 a+2b">
+<g class="segment s-ffcc66 a+2b">
   <path d="M 696.42 452.20 L 625.94 574.27"/>
 <title>Segment g002d_1</title>
 <desc>Segment g002d_1: sectionAB(B, D_1, R)</desc>
@@ -726,7 +766,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g002c_2">
-<g class="segment ffcc66 a+b">
+<g class="segment s-ffcc66 a+b">
   <path d="M 810.45 254.70 L 854.00 179.26"/>
 <title>Segment g002c_2</title>
 <desc>Segment g002c_2: sectionAB(I, B_1, W)</desc>
@@ -736,7 +776,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g002d_2">
-<g class="segment ffcc66 a+2b">
+<g class="segment s-ffcc66 a+2b">
   <path d="M 854.00 179.26 L 924.48 57.195"/>
 <title>Segment g002d_2</title>
 <desc>Segment g002d_2: sectionAB(I, B_1, W)</desc>
@@ -746,7 +786,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g002b_1">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 739.97 376.76 L 766.89 330.14"/>
 <title>Segment g002b_1</title>
 <desc>Segment g002b_1: sectionBAB(B, C_1, Q, I)</desc>
@@ -756,7 +796,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g002a">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 766.89 330.14 L 783.53 301.32"/>
 <title>Segment g002a</title>
 <desc>Segment g002a: sectionBAB(B, C_1, Q, I)</desc>
@@ -766,7 +806,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g002b_2">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 783.53 301.32 L 810.45 254.70"/>
 <title>Segment g002b_2</title>
 <desc>Segment g002b_2: sectionBAB(B, C_1, Q, I)</desc>
@@ -776,7 +816,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g003a_1">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 528.55 498.83 L 645.42 431.35"/>
 <title>Segment g003a_1</title>
 <desc>Segment g003a_1: sectionABA(J, E_1, H_1, I_1)</desc>
@@ -786,7 +826,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g003b">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 645.42 431.35 L 834.52 322.17"/>
 <title>Segment g003b</title>
 <desc>Segment g003b: sectionABA(J, E_1, H_1, I_1)</desc>
@@ -796,7 +836,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g003a_2">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 834.52 322.17 L 951.39 254.70"/>
 <title>Segment g003a_2</title>
 <desc>Segment g003a_2: sectionABA(J, E_1, H_1, I_1)</desc>
@@ -806,7 +846,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g004b_1">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 528.55 498.83 L 690.06 405.58"/>
 <title>Segment g004b_1</title>
 <desc>Segment g004b_1: sectionBAB(J, F_1, G_1, I_1)</desc>
@@ -816,7 +856,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g004a">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 690.06 405.58 L 789.88 347.95"/>
 <title>Segment g004a</title>
 <desc>Segment g004a: sectionBAB(J, F_1, G_1, I_1)</desc>
@@ -826,7 +866,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g004b_2">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 789.88 347.95 L 951.39 254.70"/>
 <title>Segment g004b_2</title>
 <desc>Segment g004b_2: sectionBAB(J, F_1, G_1, I_1)</desc>
@@ -836,7 +876,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g005b_1">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 528.55 498.83 L -5.0000 806.87"/>
 <title>Segment g005b_1</title>
 <desc>Segment g005b_1: sectionBAB(J_1, J, I_1, K_1)</desc>
@@ -846,7 +886,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g005a">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 528.55 498.83 L 951.39 254.70"/>
 <title>Segment g005a</title>
 <desc>Segment g005a: sectionBAB(J_1, J, I_1, K_1)</desc>
@@ -856,7 +896,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g005b_2">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 951.39 254.70 L 1344.0 28.028"/>
 <title>Segment g005b_2</title>
 <desc>Segment g005b_2: sectionBAB(J_1, J, I_1, K_1)</desc>
@@ -866,7 +906,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g006c">
-<g class="segment ffcc66 a+b">
+<g class="segment s-ffcc66 a+b">
   <path d="M 72.437 498.83 L 511.92 376.76"/>
 <title>Segment g006c</title>
 <desc>Segment g006c: sectionBAB(S, M, Q, I_1)</desc>
@@ -876,7 +916,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g006b">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 511.92 376.76 L 783.53 301.32"/>
 <title>Segment g006b</title>
 <desc>Segment g006b: sectionBAB(S, M, Q, I_1)</desc>
@@ -886,7 +926,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g006a">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 783.53 301.32 L 951.39 254.70"/>
 <title>Segment g006a</title>
 <desc>Segment g006a: sectionBAB(S, M, Q, I_1)</desc>
@@ -896,7 +936,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g007b_1">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 511.92 376.76 L 679.78 330.14"/>
 <title>Segment g007b_1</title>
 <desc>Segment g007b_1: sectionBAB(M, L_1, Q, I_1)</desc>
@@ -906,7 +946,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g007a">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 679.78 330.14 L 783.53 301.32"/>
 <title>Segment g007a</title>
 <desc>Segment g007a: sectionBAB(M, L_1, Q, I_1)</desc>
@@ -916,7 +956,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g007b_2">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 783.53 301.32 L 951.39 254.70"/>
 <title>Segment g007b_2</title>
 <desc>Segment g007b_2: sectionBAB(M, L_1, Q, I_1)</desc>
@@ -926,7 +966,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g008a_2">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 511.92 376.76 L 615.66 347.95"/>
 <title>Segment g008a_2</title>
 <desc>Segment g008a_2: sectionABA(M, M_1, Q, N_1)</desc>
@@ -936,7 +976,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g008b">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 615.66 347.95 L 783.53 301.32"/>
 <title>Segment g008b</title>
 <desc>Segment g008b: sectionABA(M, M_1, Q, N_1)</desc>
@@ -946,7 +986,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g008a_1">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 783.53 301.32 L 887.28 272.51"/>
 <title>Segment g008a_1</title>
 <desc>Segment g008a_1: sectionABA(M, M_1, Q, N_1)</desc>
@@ -956,7 +996,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g009a">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 72.437 498.83 L 370.97 376.76"/>
 <title>Segment g009a</title>
 <desc>Segment g009a: sectionBAB(S, O_1, B_1, K_1)</desc>
@@ -966,7 +1006,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g009b">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 370.97 376.76 L 854.00 179.26"/>
 <title>Segment g009b</title>
 <desc>Segment g009b: sectionBAB(S, O_1, B_1, K_1)</desc>
@@ -976,7 +1016,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g009c">
-<g class="segment ffcc66 a+b">
+<g class="segment s-ffcc66 a+b">
   <path d="M 854.00 179.26 L 1304.6 -5.0000"/>
 <title>Segment g009c</title>
 <desc>Segment g009c: sectionBAB(S, O_1, B_1, K_1)</desc>
@@ -986,7 +1026,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g010a_1">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 511.92 376.76 L 669.50 254.70"/>
 <title>Segment g010a_1</title>
 <desc>Segment g010a_1: sectionABA(M, D, W, P_1)</desc>
@@ -996,7 +1036,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g010b">
-<g class="segment ffcc66 b">
+<g class="segment s-ffcc66 b">
   <path d="M 669.50 254.70 L 924.48 57.195"/>
 <title>Segment g010b</title>
 <desc>Segment g010b: sectionABA(M, D, W, P_1)</desc>
@@ -1006,7 +1046,7 @@ text {
 </g> 
 </g> 
 <g id="sg-g010a_2">
-<g class="segment ffcc66 a">
+<g class="segment s-ffcc66 a">
   <path d="M 924.48 57.195 L 1004.8 -5.0000"/>
 <title>Segment g010a_2</title>
 <desc>Segment g010a_2: sectionABA(M, D, W, P_1)</desc>
