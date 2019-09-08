@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" x="0px" y="0px" width="1326px" height="824px" viewBox="0 0 1326 824">
+  <title></title>
+  <style>
+    .point {
+    stroke: black;
+    stroke-width: 3;
+    fill: white;
+    }
+    .line {
+      stroke: #808080;
+      stroke-width: 3;
+      stroke-opacity: 0.3;
+      stroke-linejoin: round;
+      stroke-linecap: butt;
+    }
+    .circle {
+      stroke: #808080;
+      stroke-width: 3;
+      stroke-opacity: 0.3;
+      stroke-linejoin: round;
+      stroke-linecap: butt;
+
+      fill: none;
+    }
+    .polygon {
+      stroke-width: 5;
+
+      stroke-linejoin: round;
+      stroke-linecap: butt;
+
+      fill: none;
+    }
+    .bisector {
+      stroke-dasharray: 13, 5, 3, 5;
+
+    }
+    .secondary {
+      stroke-dasharray: 3 5;
+    }
+    .root3 {
+      stroke: #93C;
+      stroke-width: 5;
+      fill: #93C;
+      fill-opacity: 0.2;
+      stroke-opacity: 0.7;
+    }
+    .segment {
+      stroke-width: 7;
+      stroke-linecap: round;
+    }
+    .b {
+      stroke-width: 11;
+    }
+
+    .golden {
+      stroke: #C90;
+      stroke-opacity: 0.8;
+      fill: #C90;
+    }
+    .point.golden {
+      stroke-width: 5;
+      fill: black;
+    }
+  </style>
+
+  <rect width="100%" height="100%" fill="black"/>
+
+
+    <g id="misc">
+
+      <g id="t3">
+        <path class="polygon root3" d="M 397.19 575.74 L 928.81 575.74 L 663.00 115.35 z"/>
+        <title>Triangle t3</title>
+        <desc>Triangle t3: Polygon M, L, C</desc>
+      </g>
+
+      <!-- <g > <path d="M 397.19 575.74 L 928.81 575.74"/> <title>Segment t3a</title> <desc>Segment t3a: Segment M, L</desc> </g> <g > <path d="M 928.81 575.74 L 663.00 115.35"/> <title>Segment t3c</title> <desc>Segment t3c: Segment L, C</desc> </g> <g >
+      <path d="M 663.00 115.35 L 397.19 575.74"/> <title>Segment t3b</title> <desc>Segment t3b: Segment C, M</desc> </g> -->
+
+    </g>
+
+    <g id="circles">
+
+      <g id="Cb">
+        <path class="circle" d="M 795.90 345.55 C 795.90 492.35 676.90 611.35 530.10 611.35 C 383.30 611.35 264.29 492.35 264.29 345.55 C 264.29 198.75 383.30 79.742 530.10 79.742 C 676.90 79.742 795.90 198.75 795.90 345.55 z"/>
+        <title>Circle b</title>
+        <desc>Circle b: Circle through B with center A</desc>
+      </g>
+
+      <g id="Cc">
+        <path class="circle" d="M 1061.7 345.55 C 1061.7 492.35 942.70 611.35 795.90 611.35 C 649.10 611.35 530.10 492.35 530.10 345.55 C 530.10 198.75 649.10 79.742 795.90 79.742 C 942.70 79.742 1061.7 198.75 1061.7 345.55 z"/>
+        <title>Circle c</title>
+        <desc>Circle c: Circle through A with center B</desc>
+      </g>
+
+      <g id="Ce">
+        <path class="circle root3" d="M 969.93 422.28 C 969.93 591.79 832.51 729.21 663.00 729.21 C 493.49 729.21 356.07 591.79 356.07 422.28 C 356.07 252.77 493.49 115.35 663.00 115.35 C 832.51 115.35 969.93 252.77 969.93 422.28 z"/>
+        <title>Circle e</title>
+        <desc>Circle e: Circle through L with center N</desc>
+      </g>
+
+    </g>
+
+    <g id="lines">
+
+      <g id="La">
+        <path class="line" d="M -5.0000 345.55 L 1331.0 345.55"/>
+        <title>Line a</title>
+        <desc>Line a: Line A, B</desc>
+      </g>
+
+      <g id="Ld">
+        <path class="line bisector" d="M 663.00 829.00 L 663.00 -5.0000"/>
+        <title>Line d</title>
+        <desc>Line d: Line C, D</desc>
+      </g>
+
+      <g id="Lh">
+        <path class="line " d="M 250.98 829.00 L 732.49 -5.0000"/>
+        <title>Line h</title>
+        <desc>Line h: Line A, C</desc>
+      </g>
+
+      <g >
+        <path class="line " d="M 1075.0 829.00 L 593.51 -5.0000"/>
+        <title>Line i</title>
+        <desc>Line i: Line B, C</desc>
+      </g>
+
+      <g >
+        <path class="line " d="M 809.22 829.00 L 327.71 -5.0000"/>
+        <title>Line j</title>
+        <desc>Line j: Line A, D</desc>
+      </g>
+
+      <g >
+        <path class="line " d="M 516.78 829.00 L 998.29 -5.0000"/>
+        <title>Line k</title>
+        <desc>Line k: Line B, D</desc>
+      </g>
+
+      <g >
+        <path class="line " d="M -5.0000 575.74 L 1331.0 575.74"/>
+        <title>Line m</title>
+        <desc>Line m: Line M, L</desc>
+      </g>
+
+      <g >
+        <path class="line  bisector" d="M -5.0000 36.610 L 1331.0 807.95"/>
+        <title>Line n</title>
+        <desc>Line n: Line A, L</desc>
+      </g>
+
+      <!-- <g >
+        <path class="line root3 secondary" d="M -5.0000 115.35 L 1331.0 115.35"/>
+        <title>Line a_1</title>
+        <desc>Line a_1: Line G, H</desc>
+      </g> -->
+
+      <g >
+        <path class="line  bisector" d="M -5.0000 807.95 L 1331.0 36.610"/>
+        <title>Line t_2</title>
+        <desc>Line t_2: Line M, B</desc>
+      </g>
+
+    </g>
+
+    <g id="segments">
+
+      <g >
+        <path class="segment golden" d="M 365.82 345.55 L 530.10 345.55"/>
+        <title>Segment g0201a1</title>
+        <desc>Segment g0201a1: sectionABA(O, A, B, P)</desc>
+      </g>
+
+      <g >
+        <path class="segment golden b" d="M 530.10 345.55 L 795.90 345.55"/>
+        <title>Segment g0201b</title>
+        <desc>Segment g0201b: sectionABA(O, A, B, P)</desc>
+      </g>
+
+      <g >
+        <path class="segment golden" d="M 795.90 345.55 L 960.18 345.55"/>
+        <title>Segment g0201a2</title>
+        <desc>Segment g0201a2: sectionABA(O, A, B, P)</desc>
+      </g>
+
+      <g >
+        <path class="segment golden" d="M 447.96 203.28 L 530.10 345.55"/>
+        <title>Segment g0202a1</title>
+        <desc>Segment g0202a1: sectionABA(Q, A, D, S)</desc>
+      </g>
+
+      <g >
+        <path class="segment golden b" d="M 530.10 345.55 L 663.00 575.74"/>
+        <title>Segment g0202b</title>
+        <desc>Segment g0202b: sectionABA(Q, A, D, S)</desc>
+      </g>
+
+      <g >
+        <path class="segment golden" d="M 663.00 575.74 L 745.14 718.01"/>
+        <title>Segment g0202a2</title>
+        <desc>Segment g0202a2: sectionABA(Q, A, D, S)</desc>
+      </g>
+
+      <g >
+        <path class="segment golden" d="M 580.86 718.01 L 663.00 575.74"/>
+        <title>Segment g0203a1</title>
+        <desc>Segment g0203a1: sectionABA(T, D, B, R)</desc>
+
+      </g>
+
+      <g >
+        <path class="segment golden b" d="M 663.00 575.74 L 795.90 345.55"/>
+        <title>Segment g0203b</title>
+        <desc>Segment g0203b: sectionABA(T, D, B, R)</desc>
+      </g>
+
+      <g >
+        <path class="segment golden" d="M 795.90 345.55 L 878.04 203.28"/>
+        <title>Segment g0203a2</title>
+        <desc>Segment g0203a2: sectionABA(T, D, B, R)</desc>
+      </g>
+
+    </g>
+
+    <!-- <g id="points"> -->
+    <g id="points" transform="translate(-3.2709968,0)">
+
+      <g id="PA">
+        <circle class="point golden" cx="535.10" cy="345.55" r="6"/>
+        <title>Point A</title>
+        <desc>Point A: Point on xAxis</desc>
+      </g>
+
+      <g id="PB">
+        <circle class="point golden" cx="800.90" cy="345.55" r="6"/>
+        <title>Point B</title>
+        <desc>Point B: Point on xAxis</desc>
+      </g>
+
+      <g id="PC">
+        <circle class="point" cx="666.00" cy="115.35" r="6"/>
+        <title>Point C</title>
+        <desc>Point C: Intersection point of b, c</desc>
+      </g>
+
+      <g id="PD">
+        <circle class="point golden" cx="666.00" cy="575.74" r="6"/>
+        <title>Point D</title>
+        <desc>Point D: Intersection point of b, c</desc>
+      </g>
+
+      <!-- <g id="PG">
+        <circle class="point" cx="400.19" cy="115.35" r="6"/>
+        <title>Point G</title>
+        <desc>Point G: Intersection of b and j</desc>
+      </g> -->
+
+      <!-- <g id="PH">
+        <circle class="point" cx="931.81" cy="115.35" r="6"/>
+        <title>Point H</title>
+        <desc>Point H: Intersection of c and k</desc>
+      </g> -->
+
+      <!-- <g id="PE" > <circle class="point" cx="666.00" cy="345.55" r="6" /> <title>Point E</title> <desc>Point E: Intersection of a and d</desc> </g> -->
+
+      <g id="PL">
+        <circle class="point" cx="931.81" cy="575.74" r="6"/>
+        <title>Point L</title>
+        <desc>Point L: Intersection of c and i</desc>
+      </g>
+
+      <g id="PM">
+        <circle class="point" cx="400.19" cy="575.74" r="6"/>
+        <title>Point M</title>
+        <desc>Point M: Intersection of b and h</desc>
+      </g>
+
+      <g id="PN">
+        <circle class="point" cx="666.00" cy="422.28" r="6"/>
+        <title>Point N</title>
+        <desc>Point N: Intersection of d and n</desc>
+      </g>
+
+      <g id="PO">
+        <circle class="point golden" cx="368.82" cy="345.55" r="6"/>
+        <title>Point O</title>
+        <desc>Point O: Intersection point of e, a</desc>
+      </g>
+
+      <g id="PP">
+        <circle class="point golden" cx="963.18" cy="345.55" r="6"/>
+        <title>Point P</title>
+        <desc>Point P: Intersection point of e, a</desc>
+      </g>
+
+      <g id="PQ">
+        <circle class="point golden" cx="450.96" cy="203.28" r="6"/>
+        <title>Point Q</title>
+        <desc>Point Q: Intersection of e and j</desc>
+      </g>
+
+      <g id="PR">
+        <circle class="point golden" cx="881.04" cy="203.28" r="6"/>
+        <title>Point R</title>
+        <desc>Point R: Intersection of e and k</desc>
+      </g>
+
+      <g id="PS">
+        <circle class="point golden" cx="748.14" cy="718.01" r="6"/>
+        <title>Point S</title>
+        <desc>Point S: Intersection of e and j</desc>
+      </g>
+
+      <g id="PT">
+        <circle class="point golden" cx="583.86" cy="718.01" r="6"/>
+        <title>Point T</title>
+        <desc>Point T: Intersection of e and k</desc>
+      </g>
+
+    </g>
+
+
+</svg>

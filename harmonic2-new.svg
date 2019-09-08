@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<svg 
+     version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"
+     width="42.933055555555555cm"
+     height="30.374166666666667cm"
+     viewBox="0 0 1217 861"
+     >
+<title>
+
+</title>
+<g stroke-linejoin="miter" stroke-dashoffset="0.0000" stroke-dasharray="none" stroke-width="1.0000" stroke-miterlimit="10.000" stroke-linecap="square">
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#000000">
+  <path d="M 0.0000 0.0000 L 1217.0 0.0000 L 1217.0 861.00 L 0.0000 861.00 L 0.0000 0.0000 z"/>
+</g> 
+</g> 
+<g id="misc">
+</g>
+<g id="layer0">
+</g>
+<g id="layer1">
+</g>
+<g id="layer2">
+</g>
+<g id="layer3">
+</g>
+<g id="layer4">
+</g>
+<g id="layer5">
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#808080">
+  <path d="M 644.26 455.25 C 644.26 494.75 612.24 526.77 572.74 526.77 C 533.24 526.77 501.23 494.75 501.23 455.25 C 501.23 415.75 533.24 383.73 572.74 383.73 C 612.24 383.73 644.26 415.75 644.26 455.25 z"/>
+<title>Circle c</title>
+<desc>Circle c: Circle through B with center A</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#808080">
+  <path d="M 715.77 455.25 C 715.77 494.75 683.76 526.77 644.26 526.77 C 604.76 526.77 572.74 494.75 572.74 455.25 C 572.74 415.75 604.76 383.73 644.26 383.73 C 683.76 383.73 715.77 415.75 715.77 455.25 z"/>
+<title>Circle d</title>
+<desc>Circle d: Circle through A with center B</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="1.5000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#ff6699">
+  <path d="M 691.08 475.90 C 691.08 521.50 654.11 558.48 608.50 558.48 C 562.89 558.48 525.92 521.50 525.92 475.90 C 525.92 430.29 562.89 393.32 608.50 393.32 C 654.11 393.32 691.08 430.29 691.08 475.90 z"/>
+<title>Circle e</title>
+<desc>Circle e: Circle through K with center L</desc>
+
+</g> 
+</g> 
+</g>
+<g id="layer6">
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.0000,3.0000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#ff6699">
+  <path d="M -5.0000 455.25 L 1222.0 455.25"/>
+<title>Line a</title>
+<desc>Line a: Line A, B</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="9.5000,4.0000,1.5000,4.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#808080">
+  <path d="M 608.50 866.00 L 608.50 -5.0000"/>
+<title>Line b</title>
+<desc>Line b: Line D, C</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="1.5000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#ff6699">
+  <path d="M 335.60 866.00 L 838.47 -5.0000"/>
+<title>Line f</title>
+<desc>Line f: Line A, D</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="1.5000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#ff6699">
+  <path d="M 881.40 866.00 L 378.53 -5.0000"/>
+<title>Line g</title>
+<desc>Line g: Line B, D</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.0000,3.0000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#ff6699">
+  <path d="M 809.89 866.00 L 307.02 -5.0000"/>
+<title>Line h</title>
+<desc>Line h: Line A, C</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.0000,3.0000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#ff6699">
+  <path d="M 407.11 866.00 L 909.98 -5.0000"/>
+<title>Line i</title>
+<desc>Line i: Line B, C</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="1.5000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#ff6699">
+  <path d="M -5.0000 517.19 L 1222.0 517.19"/>
+<title>Line j</title>
+<desc>Line j: Line J, K</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.0000,3.0000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#ff6699">
+  <path d="M -5.0000 393.32 L 1222.0 393.32"/>
+<title>Line k</title>
+<desc>Line k: Line H, I</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="9.5000,4.0000,1.5000,4.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#808080">
+  <path d="M -5.0000 830.10 L 1222.0 121.69"/>
+<title>Line l</title>
+<desc>Line l: Line J, B</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="9.5000,4.0000,1.5000,4.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#808080">
+  <path d="M -5.0000 121.69 L 1222.0 830.10"/>
+<title>Line m</title>
+<desc>Line m: Line K, A</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#66ccff">
+  <path d="M -5.0000 644.16 L 1222.0 142.47"/>
+<title>Line n</title>
+<desc>Line n: Line D, O</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#66ccff">
+  <path d="M -1.7327 866.00 L 1122.7 -5.0000"/>
+<title>Line p</title>
+<desc>Line p: Line D, M</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#66ccff">
+  <path d="M 544.08 866.00 L 662.79 -5.0000"/>
+<title>Line q</title>
+<desc>Line q: Line D, R</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#66ccff">
+  <path d="M 672.92 866.00 L 554.21 -5.0000"/>
+<title>Line r</title>
+<desc>Line r: Line D, P</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#66ccff">
+  <path d="M 94.277 -5.0000 L 1218.7 866.00"/>
+<title>Line s</title>
+<desc>Line s: Line D, N</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#66ccff">
+  <path d="M -5.0000 142.47 L 1222.0 644.16"/>
+<title>Line t</title>
+<desc>Line t: Line D, Q</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#ff6699">
+  <path d="M 765.69 866.00 L 262.82 -5.0000"/>
+<title>Line m_1</title>
+<desc>Line m_1: Line R, M</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#ff6699">
+  <path d="M 451.31 866.00 L 954.18 -5.0000"/>
+<title>Line n_1</title>
+<desc>Line n_1: Line N, P</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#808080">
+  <path d="M -5.0000 262.64 L 1222.0 603.44"/>
+<title>Line p_1</title>
+<desc>Line p_1: Line O, N</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#808080">
+  <path d="M -5.0000 603.44 L 1222.0 262.64"/>
+<title>Line q_1</title>
+<desc>Line q_1: Line Q, M</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#99ff00">
+  <path d="M 584.52 866.00 L 465.81 -5.0000"/>
+<title>Line r_1</title>
+<desc>Line r_1: Line J, M</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#99ff00">
+  <path d="M 489.44 866.00 L 608.15 -5.0000"/>
+<title>Line s_1</title>
+<desc>Line s_1: Line J, O</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#99ff00">
+  <path d="M 86.666 866.00 L 1211.1 -5.0000"/>
+<title>Line t_1</title>
+<desc>Line t_1: Line J, Q</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#99ff00">
+  <path d="M -5.0000 738.79 L 1222.0 237.10"/>
+<title>Line a_1</title>
+<desc>Line a_1: Line J, N</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#99ff00">
+  <path d="M -5.0000 295.58 L 1222.0 797.28"/>
+<title>Line b_1</title>
+<desc>Line b_1: Line J, P</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#99ff00">
+  <path d="M -5.0000 97.367 L 987.30 866.00"/>
+<title>Line c_1</title>
+<desc>Line c_1: Line J, R</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#cc66ff">
+  <path d="M 632.48 866.00 L 751.19 -5.0000"/>
+<title>Line d_1</title>
+<desc>Line d_1: Line K, N</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#cc66ff">
+  <path d="M 727.56 866.00 L 608.85 -5.0000"/>
+<title>Line e_1</title>
+<desc>Line e_1: Line K, Q</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#cc66ff">
+  <path d="M 5.8774 -5.0000 L 1130.3 866.00"/>
+<title>Line f_2</title>
+<desc>Line f_2: Line K, O</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#cc66ff">
+  <path d="M -5.0000 237.10 L 1222.0 738.79"/>
+<title>Line g_2</title>
+<desc>Line g_2: Line K, M</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#cc66ff">
+  <path d="M -5.0000 797.28 L 1222.0 295.58"/>
+<title>Line h_2</title>
+<desc>Line h_2: Line K, R</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#cc66ff">
+  <path d="M 229.70 866.00 L 1222.0 97.367"/>
+<title>Line i_2</title>
+<desc>Line i_2: Line K, P</desc>
+
+</g> 
+</g> 
+</g>
+<g id="layer7">
+<g>
+<g fill-opacity=".14902" fill-rule="evenodd" stroke="none" fill="#ff6699">
+  <path d="M 608.50 393.32 L 536.98 517.19 L 680.02 517.19 z"/>
+<title>Triangle t1</title>
+<desc>Triangle t1: Polygon D, J, K</desc>
+
+</g> 
+</g> 
+</g>
+<g id="layer8">
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ff6699">
+  <path d="M 608.50 393.32 L 536.98 517.19"/>
+<title>Segment t1b</title>
+<desc>Segment t1b: Segment D, J</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ff6699">
+  <path d="M 536.98 517.19 L 680.02 517.19"/>
+<title>Segment t1c</title>
+<desc>Segment t1c: Segment J, K</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ff6699">
+  <path d="M 680.02 517.19 L 608.50 393.32"/>
+<title>Segment t1a</title>
+<desc>Segment t1a: Segment K, D</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 644.26 455.25 L 622.16 493.53"/>
+<title>Segment g002c_1</title>
+<desc>Segment g002c_1: sectionAB(B, D_1, R)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 648.00, 497.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a+b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 622.16 493.53 L 586.40 555.46"/>
+<title>Segment g002d_1</title>
+<desc>Segment g002d_1: sectionAB(B, D_1, R)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 615.00, 545.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a+2b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 680.02 393.32 L 702.12 355.04"/>
+<title>Segment g002c_2</title>
+<desc>Segment g002c_2: sectionAB(I, B_1, W)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 704.00, 382.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a+b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 702.12 355.04 L 737.87 293.10"/>
+<title>Segment g002d_2</title>
+<desc>Segment g002d_2: sectionAB(I, B_1, W)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 733.00, 332.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a+2b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 644.26 455.25 L 657.92 431.59"/>
+<title>Segment g002b_1</title>
+<desc>Segment g002b_1: sectionBAB(B, C_1, Q, I)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 666.00, 454.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 657.92 431.59 L 666.36 416.97"/>
+<title>Segment g002a</title>
+<desc>Segment g002a: sectionBAB(B, C_1, Q, I)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 673.00, 440.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 666.36 416.97 L 680.02 393.32"/>
+<title>Segment g002b_2</title>
+<desc>Segment g002b_2: sectionBAB(B, C_1, Q, I)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 687.00, 418.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 536.98 517.19 L 596.28 482.95"/>
+<title>Segment g003a_1</title>
+<desc>Segment g003a_1: sectionABA(J, E_1, H_1, I_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 574.00, 513.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 596.28 482.95 L 692.23 427.55"/>
+<title>Segment g003b</title>
+<desc>Segment g003b: sectionABA(J, E_1, H_1, I_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 662.00, 474.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 692.23 427.55 L 751.53 393.32"/>
+<title>Segment g003a_2</title>
+<desc>Segment g003a_2: sectionABA(J, E_1, H_1, I_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 729.00, 424.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 536.98 517.19 L 618.93 469.87"/>
+<title>Segment g004b_1</title>
+<desc>Segment g004b_1: sectionBAB(J, F_1, G_1, I_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 585.00, 507.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 618.93 469.87 L 669.58 440.63"/>
+<title>Segment g004a</title>
+<desc>Segment g004a: sectionBAB(J, F_1, G_1, I_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 652.00, 469.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 669.58 440.63 L 751.53 393.32"/>
+<title>Segment g004b_2</title>
+<desc>Segment g004b_2: sectionBAB(J, F_1, G_1, I_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 718.00, 430.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 189.84 717.61 L 536.98 517.19"/>
+<title>Segment g005b_1</title>
+<desc>Segment g005b_1: sectionBAB(J_1, J, I_1, K_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 374.00, 638.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 536.98 517.19 L 751.53 393.32"/>
+<title>Segment g005a</title>
+<desc>Segment g005a: sectionBAB(J_1, J, I_1, K_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 662.00, 469.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 751.53 393.32 L 1098.7 192.89"/>
+<title>Segment g005b_2</title>
+<desc>Segment g005b_2: sectionBAB(J_1, J, I_1, K_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 931.00, 312.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 305.55 517.19 L 528.54 455.25"/>
+<title>Segment g006c</title>
+<desc>Segment g006c: sectionBAB(S, M, Q, I_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 421.00, 501.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a+b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="5.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 528.54 455.25 L 666.36 416.97"/>
+<title>Segment g006b</title>
+<desc>Segment g006b: sectionBAB(S, M, Q, I_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 588.00, 457.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 666.36 416.97 L 751.53 393.32"/>
+<title>Segment g006a</title>
+<desc>Segment g006a: sectionBAB(S, M, Q, I_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 707.00, 419.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 528.54 455.25 L 613.72 431.59"/>
+<title>Segment g007b_1</title>
+<desc>Segment g007b_1: sectionBAB(M, L_1, Q, I_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 567.00, 432.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 613.72 431.59 L 666.36 416.97"/>
+<title>Segment g007a</title>
+<desc>Segment g007a: sectionBAB(M, L_1, Q, I_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 634.00, 414.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 666.36 416.97 L 751.53 393.32"/>
+<title>Segment g007b_2</title>
+<desc>Segment g007b_2: sectionBAB(M, L_1, Q, I_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 702.00, 397.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 528.54 455.25 L 581.18 440.63"/>
+<title>Segment g008a_2</title>
+<desc>Segment g008a_2: sectionABA(M, M_1, Q, N_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 559.00, 463.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 581.18 440.63 L 666.36 416.97"/>
+<title>Segment g008b</title>
+<desc>Segment g008b: sectionABA(M, M_1, Q, N_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 628.00, 444.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 666.36 416.97 L 719.00 402.35"/>
+<title>Segment g008a_1</title>
+<desc>Segment g008a_1: sectionABA(M, M_1, Q, N_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 696.00, 425.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 305.55 517.19 L 457.03 455.25"/>
+<title>Segment g009a</title>
+<desc>Segment g009a: sectionBAB(S, O_1, B_1, K_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 387.00, 501.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 457.03 455.25 L 702.12 355.04"/>
+<title>Segment g009b</title>
+<desc>Segment g009b: sectionBAB(S, O_1, B_1, K_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 585.00, 419.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 702.12 355.04 L 1098.7 192.89"/>
+<title>Segment g009c</title>
+<desc>Segment g009c: sectionBAB(S, O_1, B_1, K_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 906.00, 288.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a+b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 528.54 455.25 L 608.50 393.32"/>
+<title>Segment g010a_1</title>
+<desc>Segment g010a_1: sectionABA(M, D, W, P_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 578.00, 436.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="6.5000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 608.50 393.32 L 737.87 293.10"/>
+<title>Segment g010b</title>
+<desc>Segment g010b: sectionABA(M, D, W, P_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 682.00, 355.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">b</text>
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-width="4.0000" stroke-linecap="round" fill="none" stroke-opacity=".74902" stroke="#ffcc66">
+  <path d="M 737.87 293.10 L 817.83 231.17"/>
+<title>Segment g010a_2</title>
+<desc>Segment g010a_2: sectionABA(M, D, W, P_1)</desc>
+
+</g> 
+</g> 
+<g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 787.00, 274.00)">
+<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#ffcc66" font-size="12.000" x="0" y="0">a</text>
+</g> 
+</g> 
+</g>
+<g id="layer9">
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 576.74 455.25 C 576.74 457.46 574.95 459.25 572.74 459.25 C 570.53 459.25 568.74 457.46 568.74 455.25 C 568.74 453.04 570.53 451.25 572.74 451.25 C 574.95 451.25 576.74 453.04 576.74 455.25 z"/>
+<title>Point A</title>
+<desc>Point A: Point on xAxis</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 576.74 455.25 C 576.74 457.46 574.95 459.25 572.74 459.25 C 570.53 459.25 568.74 457.46 568.74 455.25 C 568.74 453.04 570.53 451.25 572.74 451.25 C 574.95 451.25 576.74 453.04 576.74 455.25 z"/>
+<title>Point A</title>
+<desc>Point A: Point on xAxis</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 648.26 455.25 C 648.26 457.46 646.47 459.25 644.26 459.25 C 642.05 459.25 640.26 457.46 640.26 455.25 C 640.26 453.04 642.05 451.25 644.26 451.25 C 646.47 451.25 648.26 453.04 648.26 455.25 z"/>
+<title>Point B</title>
+<desc>Point B: Point on xAxis</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 648.26 455.25 C 648.26 457.46 646.47 459.25 644.26 459.25 C 642.05 459.25 640.26 457.46 640.26 455.25 C 640.26 453.04 642.05 451.25 644.26 451.25 C 646.47 451.25 648.26 453.04 648.26 455.25 z"/>
+<title>Point B</title>
+<desc>Point B: Point on xAxis</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 612.50 393.32 C 612.50 395.52 610.71 397.32 608.50 397.32 C 606.29 397.32 604.50 395.52 604.50 393.32 C 604.50 391.11 606.29 389.32 608.50 389.32 C 610.71 389.32 612.50 391.11 612.50 393.32 z"/>
+<title>Point D</title>
+<desc>Point D: Intersection point of c, d</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 612.50 393.32 C 612.50 395.52 610.71 397.32 608.50 397.32 C 606.29 397.32 604.50 395.52 604.50 393.32 C 604.50 391.11 606.29 389.32 608.50 389.32 C 610.71 389.32 612.50 391.11 612.50 393.32 z"/>
+<title>Point D</title>
+<desc>Point D: Intersection point of c, d</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 612.50 517.19 C 612.50 519.40 610.71 521.19 608.50 521.19 C 606.29 521.19 604.50 519.40 604.50 517.19 C 604.50 514.98 606.29 513.19 608.50 513.19 C 610.71 513.19 612.50 514.98 612.50 517.19 z"/>
+<title>Point C</title>
+<desc>Point C: Intersection point of c, d</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 612.50 517.19 C 612.50 519.40 610.71 521.19 608.50 521.19 C 606.29 521.19 604.50 519.40 604.50 517.19 C 604.50 514.98 606.29 513.19 608.50 513.19 C 610.71 513.19 612.50 514.98 612.50 517.19 z"/>
+<title>Point C</title>
+<desc>Point C: Intersection point of c, d</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 612.50 455.25 C 612.50 457.46 610.71 459.25 608.50 459.25 C 606.29 459.25 604.50 457.46 604.50 455.25 C 604.50 453.04 606.29 451.25 608.50 451.25 C 610.71 451.25 612.50 453.04 612.50 455.25 z"/>
+<title>Point E</title>
+<desc>Point E: Intersection of a and b</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 612.50 455.25 C 612.50 457.46 610.71 459.25 608.50 459.25 C 606.29 459.25 604.50 457.46 604.50 455.25 C 604.50 453.04 606.29 451.25 608.50 451.25 C 610.71 451.25 612.50 453.04 612.50 455.25 z"/>
+<title>Point E</title>
+<desc>Point E: Intersection of a and b</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 505.23 455.25 C 505.23 457.46 503.43 459.25 501.23 459.25 C 499.02 459.25 497.23 457.46 497.23 455.25 C 497.23 453.04 499.02 451.25 501.23 451.25 C 503.43 451.25 505.23 453.04 505.23 455.25 z"/>
+<title>Point F</title>
+<desc>Point F: Intersection of c and a</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 505.23 455.25 C 505.23 457.46 503.43 459.25 501.23 459.25 C 499.02 459.25 497.23 457.46 497.23 455.25 C 497.23 453.04 499.02 451.25 501.23 451.25 C 503.43 451.25 505.23 453.04 505.23 455.25 z"/>
+<title>Point F</title>
+<desc>Point F: Intersection of c and a</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 719.77 455.25 C 719.77 457.46 717.98 459.25 715.77 459.25 C 713.57 459.25 711.77 457.46 711.77 455.25 C 711.77 453.04 713.57 451.25 715.77 451.25 C 717.98 451.25 719.77 453.04 719.77 455.25 z"/>
+<title>Point G</title>
+<desc>Point G: Intersection of d and a</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 719.77 455.25 C 719.77 457.46 717.98 459.25 715.77 459.25 C 713.57 459.25 711.77 457.46 711.77 455.25 C 711.77 453.04 713.57 451.25 715.77 451.25 C 717.98 451.25 719.77 453.04 719.77 455.25 z"/>
+<title>Point G</title>
+<desc>Point G: Intersection of d and a</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 540.98 393.32 C 540.98 395.52 539.19 397.32 536.98 397.32 C 534.77 397.32 532.98 395.52 532.98 393.32 C 532.98 391.11 534.77 389.32 536.98 389.32 C 539.19 389.32 540.98 391.11 540.98 393.32 z"/>
+<title>Point H</title>
+<desc>Point H: Intersection of c and h</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 540.98 393.32 C 540.98 395.52 539.19 397.32 536.98 397.32 C 534.77 397.32 532.98 395.52 532.98 393.32 C 532.98 391.11 534.77 389.32 536.98 389.32 C 539.19 389.32 540.98 391.11 540.98 393.32 z"/>
+<title>Point H</title>
+<desc>Point H: Intersection of c and h</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 684.02 393.32 C 684.02 395.52 682.23 397.32 680.02 397.32 C 677.81 397.32 676.02 395.52 676.02 393.32 C 676.02 391.11 677.81 389.32 680.02 389.32 C 682.23 389.32 684.02 391.11 684.02 393.32 z"/>
+<title>Point I</title>
+<desc>Point I: Intersection of d and i</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 684.02 393.32 C 684.02 395.52 682.23 397.32 680.02 397.32 C 677.81 397.32 676.02 395.52 676.02 393.32 C 676.02 391.11 677.81 389.32 680.02 389.32 C 682.23 389.32 684.02 391.11 684.02 393.32 z"/>
+<title>Point I</title>
+<desc>Point I: Intersection of d and i</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 540.98 517.19 C 540.98 519.40 539.19 521.19 536.98 521.19 C 534.77 521.19 532.98 519.40 532.98 517.19 C 532.98 514.98 534.77 513.19 536.98 513.19 C 539.19 513.19 540.98 514.98 540.98 517.19 z"/>
+<title>Point J</title>
+<desc>Point J: Intersection of c and f</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 540.98 517.19 C 540.98 519.40 539.19 521.19 536.98 521.19 C 534.77 521.19 532.98 519.40 532.98 517.19 C 532.98 514.98 534.77 513.19 536.98 513.19 C 539.19 513.19 540.98 514.98 540.98 517.19 z"/>
+<title>Point J</title>
+<desc>Point J: Intersection of c and f</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 684.02 517.19 C 684.02 519.40 682.23 521.19 680.02 521.19 C 677.81 521.19 676.02 519.40 676.02 517.19 C 676.02 514.98 677.81 513.19 680.02 513.19 C 682.23 513.19 684.02 514.98 684.02 517.19 z"/>
+<title>Point K</title>
+<desc>Point K: Intersection of d and g</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 684.02 517.19 C 684.02 519.40 682.23 521.19 680.02 521.19 C 677.81 521.19 676.02 519.40 676.02 517.19 C 676.02 514.98 677.81 513.19 680.02 513.19 C 682.23 513.19 684.02 514.98 684.02 517.19 z"/>
+<title>Point K</title>
+<desc>Point K: Intersection of d and g</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 612.50 475.90 C 612.50 478.10 610.71 479.90 608.50 479.90 C 606.29 479.90 604.50 478.10 604.50 475.90 C 604.50 473.69 606.29 471.90 608.50 471.90 C 610.71 471.90 612.50 473.69 612.50 475.90 z"/>
+<title>Point L</title>
+<desc>Point L: Intersection of l and m</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 612.50 475.90 C 612.50 478.10 610.71 479.90 608.50 479.90 C 606.29 479.90 604.50 478.10 604.50 475.90 C 604.50 473.69 606.29 471.90 608.50 471.90 C 610.71 471.90 612.50 473.69 612.50 475.90 z"/>
+<title>Point L</title>
+<desc>Point L: Intersection of l and m</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 532.54 455.25 C 532.54 457.46 530.75 459.25 528.54 459.25 C 526.33 459.25 524.54 457.46 524.54 455.25 C 524.54 453.04 526.33 451.25 528.54 451.25 C 530.75 451.25 532.54 453.04 532.54 455.25 z"/>
+<title>Point M</title>
+<desc>Point M: Intersection point of e, a</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 532.54 455.25 C 532.54 457.46 530.75 459.25 528.54 459.25 C 526.33 459.25 524.54 457.46 524.54 455.25 C 524.54 453.04 526.33 451.25 528.54 451.25 C 530.75 451.25 532.54 453.04 532.54 455.25 z"/>
+<title>Point M</title>
+<desc>Point M: Intersection point of e, a</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 692.46 455.25 C 692.46 457.46 690.67 459.25 688.46 459.25 C 686.25 459.25 684.46 457.46 684.46 455.25 C 684.46 453.04 686.25 451.25 688.46 451.25 C 690.67 451.25 692.46 453.04 692.46 455.25 z"/>
+<title>Point N</title>
+<desc>Point N: Intersection point of e, a</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 692.46 455.25 C 692.46 457.46 690.67 459.25 688.46 459.25 C 686.25 459.25 684.46 457.46 684.46 455.25 C 684.46 453.04 686.25 451.25 688.46 451.25 C 690.67 451.25 692.46 453.04 692.46 455.25 z"/>
+<title>Point N</title>
+<desc>Point N: Intersection point of e, a</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 554.64 416.97 C 554.64 419.18 552.85 420.97 550.64 420.97 C 548.43 420.97 546.64 419.18 546.64 416.97 C 546.64 414.76 548.43 412.97 550.64 412.97 C 552.85 412.97 554.64 414.76 554.64 416.97 z"/>
+<title>Point O</title>
+<desc>Point O: Intersection point of e, h</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 554.64 416.97 C 554.64 419.18 552.85 420.97 550.64 420.97 C 548.43 420.97 546.64 419.18 546.64 416.97 C 546.64 414.76 548.43 412.97 550.64 412.97 C 552.85 412.97 554.64 414.76 554.64 416.97 z"/>
+<title>Point O</title>
+<desc>Point O: Intersection point of e, h</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 634.60 555.46 C 634.60 557.67 632.81 559.46 630.60 559.46 C 628.39 559.46 626.60 557.67 626.60 555.46 C 626.60 553.25 628.39 551.46 630.60 551.46 C 632.81 551.46 634.60 553.25 634.60 555.46 z"/>
+<title>Point P</title>
+<desc>Point P: Intersection point of e, h</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 634.60 555.46 C 634.60 557.67 632.81 559.46 630.60 559.46 C 628.39 559.46 626.60 557.67 626.60 555.46 C 626.60 553.25 628.39 551.46 630.60 551.46 C 632.81 551.46 634.60 553.25 634.60 555.46 z"/>
+<title>Point P</title>
+<desc>Point P: Intersection point of e, h</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 670.36 416.97 C 670.36 419.18 668.57 420.97 666.36 420.97 C 664.15 420.97 662.36 419.18 662.36 416.97 C 662.36 414.76 664.15 412.97 666.36 412.97 C 668.57 412.97 670.36 414.76 670.36 416.97 z"/>
+<title>Point Q</title>
+<desc>Point Q: Intersection point of e, i</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 670.36 416.97 C 670.36 419.18 668.57 420.97 666.36 420.97 C 664.15 420.97 662.36 419.18 662.36 416.97 C 662.36 414.76 664.15 412.97 666.36 412.97 C 668.57 412.97 670.36 414.76 670.36 416.97 z"/>
+<title>Point Q</title>
+<desc>Point Q: Intersection point of e, i</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 590.40 555.46 C 590.40 557.67 588.61 559.46 586.40 559.46 C 584.19 559.46 582.40 557.67 582.40 555.46 C 582.40 553.25 584.19 551.46 586.40 551.46 C 588.61 551.46 590.40 553.25 590.40 555.46 z"/>
+<title>Point R</title>
+<desc>Point R: Intersection point of e, i</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 590.40 555.46 C 590.40 557.67 588.61 559.46 586.40 559.46 C 584.19 559.46 582.40 557.67 582.40 555.46 C 582.40 553.25 584.19 551.46 586.40 551.46 C 588.61 551.46 590.40 553.25 590.40 555.46 z"/>
+<title>Point R</title>
+<desc>Point R: Intersection point of e, i</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 309.55 517.19 C 309.55 519.40 307.76 521.19 305.55 521.19 C 303.34 521.19 301.55 519.40 301.55 517.19 C 301.55 514.98 303.34 513.19 305.55 513.19 C 307.76 513.19 309.55 514.98 309.55 517.19 z"/>
+<title>Point S</title>
+<desc>Point S: Intersection of j and n</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 309.55 517.19 C 309.55 519.40 307.76 521.19 305.55 521.19 C 303.34 521.19 301.55 519.40 301.55 517.19 C 301.55 514.98 303.34 513.19 305.55 513.19 C 307.76 513.19 309.55 514.98 309.55 517.19 z"/>
+<title>Point S</title>
+<desc>Point S: Intersection of j and n</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 452.58 517.19 C 452.58 519.40 450.79 521.19 448.58 521.19 C 446.38 521.19 444.58 519.40 444.58 517.19 C 444.58 514.98 446.38 513.19 448.58 513.19 C 450.79 513.19 452.58 514.98 452.58 517.19 z"/>
+<title>Point T</title>
+<desc>Point T: Intersection of j and p</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 452.58 517.19 C 452.58 519.40 450.79 521.19 448.58 521.19 C 446.38 521.19 444.58 519.40 444.58 517.19 C 444.58 514.98 446.38 513.19 448.58 513.19 C 450.79 513.19 452.58 514.98 452.58 517.19 z"/>
+<title>Point T</title>
+<desc>Point T: Intersection of j and p</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 595.62 517.19 C 595.62 519.40 593.83 521.19 591.62 521.19 C 589.41 521.19 587.62 519.40 587.62 517.19 C 587.62 514.98 589.41 513.19 591.62 513.19 C 593.83 513.19 595.62 514.98 595.62 517.19 z"/>
+<title>Point U</title>
+<desc>Point U: Intersection of q and j</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 595.62 517.19 C 595.62 519.40 593.83 521.19 591.62 521.19 C 589.41 521.19 587.62 519.40 587.62 517.19 C 587.62 514.98 589.41 513.19 591.62 513.19 C 593.83 513.19 595.62 514.98 595.62 517.19 z"/>
+<title>Point U</title>
+<desc>Point U: Intersection of q and j</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 629.38 517.19 C 629.38 519.40 627.59 521.19 625.38 521.19 C 623.17 521.19 621.38 519.40 621.38 517.19 C 621.38 514.98 623.17 513.19 625.38 513.19 C 627.59 513.19 629.38 514.98 629.38 517.19 z"/>
+<title>Point V</title>
+<desc>Point V: Intersection of r and j</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 629.38 517.19 C 629.38 519.40 627.59 521.19 625.38 521.19 C 623.17 521.19 621.38 519.40 621.38 517.19 C 621.38 514.98 623.17 513.19 625.38 513.19 C 627.59 513.19 629.38 514.98 629.38 517.19 z"/>
+<title>Point V</title>
+<desc>Point V: Intersection of r and j</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 772.42 517.19 C 772.42 519.40 770.62 521.19 768.42 521.19 C 766.21 521.19 764.42 519.40 764.42 517.19 C 764.42 514.98 766.21 513.19 768.42 513.19 C 770.62 513.19 772.42 514.98 772.42 517.19 z"/>
+<title>Point Z</title>
+<desc>Point Z: Intersection of s and j</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 772.42 517.19 C 772.42 519.40 770.62 521.19 768.42 521.19 C 766.21 521.19 764.42 519.40 764.42 517.19 C 764.42 514.98 766.21 513.19 768.42 513.19 C 770.62 513.19 772.42 514.98 772.42 517.19 z"/>
+<title>Point Z</title>
+<desc>Point Z: Intersection of s and j</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 915.45 517.19 C 915.45 519.40 913.66 521.19 911.45 521.19 C 909.24 521.19 907.45 519.40 907.45 517.19 C 907.45 514.98 909.24 513.19 911.45 513.19 C 913.66 513.19 915.45 514.98 915.45 517.19 z"/>
+<title>Point A_1</title>
+<desc>Point A_1: Intersection of t and j</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 915.45 517.19 C 915.45 519.40 913.66 521.19 911.45 521.19 C 909.24 521.19 907.45 519.40 907.45 517.19 C 907.45 514.98 909.24 513.19 911.45 513.19 C 913.66 513.19 915.45 514.98 915.45 517.19 z"/>
+<title>Point A_1</title>
+<desc>Point A_1: Intersection of t and j</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 741.87 293.10 C 741.87 295.31 740.08 297.10 737.87 297.10 C 735.67 297.10 733.87 295.31 733.87 293.10 C 733.87 290.89 735.67 289.10 737.87 289.10 C 740.08 289.10 741.87 290.89 741.87 293.10 z"/>
+<title>Point W</title>
+<desc>Point W: Intersection of i and p</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 741.87 293.10 C 741.87 295.31 740.08 297.10 737.87 297.10 C 735.67 297.10 733.87 295.31 733.87 293.10 C 733.87 290.89 735.67 289.10 737.87 289.10 C 740.08 289.10 741.87 290.89 741.87 293.10 z"/>
+<title>Point W</title>
+<desc>Point W: Intersection of i and p</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 706.12 355.04 C 706.12 357.25 704.33 359.04 702.12 359.04 C 699.91 359.04 698.12 357.25 698.12 355.04 C 698.12 352.83 699.91 351.04 702.12 351.04 C 704.33 351.04 706.12 352.83 706.12 355.04 z"/>
+<title>Point B_1</title>
+<desc>Point B_1: Intersection of i and n</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 706.12 355.04 C 706.12 357.25 704.33 359.04 702.12 359.04 C 699.91 359.04 698.12 357.25 698.12 355.04 C 698.12 352.83 699.91 351.04 702.12 351.04 C 704.33 351.04 706.12 352.83 706.12 355.04 z"/>
+<title>Point B_1</title>
+<desc>Point B_1: Intersection of i and n</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 661.92 431.59 C 661.92 433.80 660.13 435.59 657.92 435.59 C 655.71 435.59 653.92 433.80 653.92 431.59 C 653.92 429.38 655.71 427.59 657.92 427.59 C 660.13 427.59 661.92 429.38 661.92 431.59 z"/>
+<title>Point C_1</title>
+<desc>Point C_1: Intersection of i and s</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 661.92 431.59 C 661.92 433.80 660.13 435.59 657.92 435.59 C 655.71 435.59 653.92 433.80 653.92 431.59 C 653.92 429.38 655.71 427.59 657.92 427.59 C 660.13 427.59 661.92 429.38 661.92 431.59 z"/>
+<title>Point C_1</title>
+<desc>Point C_1: Intersection of i and s</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 626.16 493.53 C 626.16 495.74 624.37 497.53 622.16 497.53 C 619.95 497.53 618.16 495.74 618.16 493.53 C 618.16 491.32 619.95 489.53 622.16 489.53 C 624.37 489.53 626.16 491.32 626.16 493.53 z"/>
+<title>Point D_1</title>
+<desc>Point D_1: Intersection of r and i</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 626.16 493.53 C 626.16 495.74 624.37 497.53 622.16 497.53 C 619.95 497.53 618.16 495.74 618.16 493.53 C 618.16 491.32 619.95 489.53 622.16 489.53 C 624.37 489.53 626.16 491.32 626.16 493.53 z"/>
+<title>Point D_1</title>
+<desc>Point D_1: Intersection of r and i</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 600.28 482.95 C 600.28 485.16 598.49 486.95 596.28 486.95 C 594.07 486.95 592.28 485.16 592.28 482.95 C 592.28 480.74 594.07 478.95 596.28 478.95 C 598.49 478.95 600.28 480.74 600.28 482.95 z"/>
+<title>Point E_1</title>
+<desc>Point E_1: Intersection of q and l</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 600.28 482.95 C 600.28 485.16 598.49 486.95 596.28 486.95 C 594.07 486.95 592.28 485.16 592.28 482.95 C 592.28 480.74 594.07 478.95 596.28 478.95 C 598.49 478.95 600.28 480.74 600.28 482.95 z"/>
+<title>Point E_1</title>
+<desc>Point E_1: Intersection of q and l</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 622.93 469.87 C 622.93 472.08 621.14 473.87 618.93 473.87 C 616.72 473.87 614.93 472.08 614.93 469.87 C 614.93 467.66 616.72 465.87 618.93 465.87 C 621.14 465.87 622.93 467.66 622.93 469.87 z"/>
+<title>Point F_1</title>
+<desc>Point F_1: Intersection of r and l</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 622.93 469.87 C 622.93 472.08 621.14 473.87 618.93 473.87 C 616.72 473.87 614.93 472.08 614.93 469.87 C 614.93 467.66 616.72 465.87 618.93 465.87 C 621.14 465.87 622.93 467.66 622.93 469.87 z"/>
+<title>Point F_1</title>
+<desc>Point F_1: Intersection of r and l</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 673.58 440.63 C 673.58 442.84 671.79 444.63 669.58 444.63 C 667.37 444.63 665.58 442.84 665.58 440.63 C 665.58 438.42 667.37 436.63 669.58 436.63 C 671.79 436.63 673.58 438.42 673.58 440.63 z"/>
+<title>Point G_1</title>
+<desc>Point G_1: Intersection of s and l</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 673.58 440.63 C 673.58 442.84 671.79 444.63 669.58 444.63 C 667.37 444.63 665.58 442.84 665.58 440.63 C 665.58 438.42 667.37 436.63 669.58 436.63 C 671.79 436.63 673.58 438.42 673.58 440.63 z"/>
+<title>Point G_1</title>
+<desc>Point G_1: Intersection of s and l</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 696.23 427.55 C 696.23 429.76 694.44 431.55 692.23 431.55 C 690.02 431.55 688.23 429.76 688.23 427.55 C 688.23 425.34 690.02 423.55 692.23 423.55 C 694.44 423.55 696.23 425.34 696.23 427.55 z"/>
+<title>Point H_1</title>
+<desc>Point H_1: Intersection of t and l</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 696.23 427.55 C 696.23 429.76 694.44 431.55 692.23 431.55 C 690.02 431.55 688.23 429.76 688.23 427.55 C 688.23 425.34 690.02 423.55 692.23 423.55 C 694.44 423.55 696.23 425.34 696.23 427.55 z"/>
+<title>Point H_1</title>
+<desc>Point H_1: Intersection of t and l</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 755.53 393.32 C 755.53 395.52 753.74 397.32 751.53 397.32 C 749.32 397.32 747.53 395.52 747.53 393.32 C 747.53 391.11 749.32 389.32 751.53 389.32 C 753.74 389.32 755.53 391.11 755.53 393.32 z"/>
+<title>Point I_1</title>
+<desc>Point I_1: Intersection of k and l</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 755.53 393.32 C 755.53 395.52 753.74 397.32 751.53 397.32 C 749.32 397.32 747.53 395.52 747.53 393.32 C 747.53 391.11 749.32 389.32 751.53 389.32 C 753.74 389.32 755.53 391.11 755.53 393.32 z"/>
+<title>Point I_1</title>
+<desc>Point I_1: Intersection of k and l</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 193.84 717.61 C 193.84 719.82 192.04 721.61 189.84 721.61 C 187.63 721.61 185.84 719.82 185.84 717.61 C 185.84 715.40 187.63 713.61 189.84 713.61 C 192.04 713.61 193.84 715.40 193.84 717.61 z"/>
+<title>Point J_1</title>
+<desc>Point J_1: Intersection of p and l</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 193.84 717.61 C 193.84 719.82 192.04 721.61 189.84 721.61 C 187.63 721.61 185.84 719.82 185.84 717.61 C 185.84 715.40 187.63 713.61 189.84 713.61 C 192.04 713.61 193.84 715.40 193.84 717.61 z"/>
+<title>Point J_1</title>
+<desc>Point J_1: Intersection of p and l</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 1102.7 192.89 C 1102.7 195.10 1100.9 196.89 1098.7 196.89 C 1096.5 196.89 1094.7 195.10 1094.7 192.89 C 1094.7 190.68 1096.5 188.89 1098.7 188.89 C 1100.9 188.89 1102.7 190.68 1102.7 192.89 z"/>
+<title>Point K_1</title>
+<desc>Point K_1: Intersection of n and l</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 1102.7 192.89 C 1102.7 195.10 1100.9 196.89 1098.7 196.89 C 1096.5 196.89 1094.7 195.10 1094.7 192.89 C 1094.7 190.68 1096.5 188.89 1098.7 188.89 C 1100.9 188.89 1102.7 190.68 1102.7 192.89 z"/>
+<title>Point K_1</title>
+<desc>Point K_1: Intersection of n and l</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 617.72 431.59 C 617.72 433.80 615.93 435.59 613.72 435.59 C 611.51 435.59 609.72 433.80 609.72 431.59 C 609.72 429.38 611.51 427.59 613.72 427.59 C 615.93 427.59 617.72 429.38 617.72 431.59 z"/>
+<title>Point L_1</title>
+<desc>Point L_1: Intersection of r and q_1</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 617.72 431.59 C 617.72 433.80 615.93 435.59 613.72 435.59 C 611.51 435.59 609.72 433.80 609.72 431.59 C 609.72 429.38 611.51 427.59 613.72 427.59 C 615.93 427.59 617.72 429.38 617.72 431.59 z"/>
+<title>Point L_1</title>
+<desc>Point L_1: Intersection of r and q_1</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 585.18 440.63 C 585.18 442.84 583.39 444.63 581.18 444.63 C 578.97 444.63 577.18 442.84 577.18 440.63 C 577.18 438.42 578.97 436.63 581.18 436.63 C 583.39 436.63 585.18 438.42 585.18 440.63 z"/>
+<title>Point M_1</title>
+<desc>Point M_1: Intersection of f and q_1</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 585.18 440.63 C 585.18 442.84 583.39 444.63 581.18 444.63 C 578.97 444.63 577.18 442.84 577.18 440.63 C 577.18 438.42 578.97 436.63 581.18 436.63 C 583.39 436.63 585.18 438.42 585.18 440.63 z"/>
+<title>Point M_1</title>
+<desc>Point M_1: Intersection of f and q_1</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 723.00 402.35 C 723.00 404.56 721.21 406.35 719.00 406.35 C 716.79 406.35 715.00 404.56 715.00 402.35 C 715.00 400.14 716.79 398.35 719.00 398.35 C 721.21 398.35 723.00 400.14 723.00 402.35 z"/>
+<title>Point N_1</title>
+<desc>Point N_1: Intersection of n_1 and q_1</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 723.00 402.35 C 723.00 404.56 721.21 406.35 719.00 406.35 C 716.79 406.35 715.00 404.56 715.00 402.35 C 715.00 400.14 716.79 398.35 719.00 398.35 C 721.21 398.35 723.00 400.14 723.00 402.35 z"/>
+<title>Point N_1</title>
+<desc>Point N_1: Intersection of n_1 and q_1</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 461.03 455.25 C 461.03 457.46 459.23 459.25 457.03 459.25 C 454.82 459.25 453.03 457.46 453.03 455.25 C 453.03 453.04 454.82 451.25 457.03 451.25 C 459.23 451.25 461.03 453.04 461.03 455.25 z"/>
+<title>Point O_1</title>
+<desc>Point O_1: Intersection of n and a</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 461.03 455.25 C 461.03 457.46 459.23 459.25 457.03 459.25 C 454.82 459.25 453.03 457.46 453.03 455.25 C 453.03 453.04 454.82 451.25 457.03 451.25 C 459.23 451.25 461.03 453.04 461.03 455.25 z"/>
+<title>Point O_1</title>
+<desc>Point O_1: Intersection of n and a</desc>
+
+</g> 
+</g> 
+<g>
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 821.83 231.17 C 821.83 233.38 820.04 235.17 817.83 235.17 C 815.62 235.17 813.83 233.38 813.83 231.17 C 813.83 228.96 815.62 227.17 817.83 227.17 C 820.04 227.17 821.83 228.96 821.83 231.17 z"/>
+<title>Point P_1</title>
+<desc>Point P_1: Intersection of n_1 and p</desc>
+
+</g> 
+</g> 
+<g>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 821.83 231.17 C 821.83 233.38 820.04 235.17 817.83 235.17 C 815.62 235.17 813.83 233.38 813.83 231.17 C 813.83 228.96 815.62 227.17 817.83 227.17 C 820.04 227.17 821.83 228.96 821.83 231.17 z"/>
+<title>Point P_1</title>
+<desc>Point P_1: Intersection of n_1 and p</desc>
+
+</g> 
+</g> 
+</g>
+<defs>
+<font id="Helvetica" horiz-adv-x="0" >
+<font-face font-family="Helvetica" font-weight="normal" font-style="normal" font-size="100.00" units-per-em="100.00" ascent="92.822266" descent="23.583984" />
+<missing-glyph horiz-adv-x="100.00"  d=""/>
+<glyph unicode="&#x0032;" horiz-adv-x="63.623" d="M 19.188 8.2969 L 53.609 8.2969 L 53.609 -0.0000 L 7.3281 -0.0000 L 7.3281 8.2969 Q 12.938 14.109 22.633 23.898 Q 32.328 33.688 34.812 36.531 Q 39.547 41.844 41.430 45.531 Q 43.312 49.219 43.312 52.781 Q 43.312 58.594 39.234 62.258 Q 35.156 65.922 28.609 65.922 Q 23.969 65.922 18.820 64.312 Q 13.672 62.703 7.8125 59.422 L 7.8125 69.391 Q 13.766 71.781 18.945 73.000 Q 24.125 74.219 28.422 74.219 Q 39.750 74.219 46.484 68.555 Q 53.219 62.891 53.219 53.422 Q 53.219 48.922 51.539 44.898 Q 49.859 40.875 45.406 35.406 Q 44.188 33.984 37.648 27.219 Q 31.109 20.453 19.188 8.2969 z"/>
+<glyph unicode="&#x0062;" horiz-adv-x="63.477" d="M 48.688 27.297 Q 48.688 37.203 44.609 42.844 Q 40.531 48.484 33.406 48.484 Q 26.266 48.484 22.188 42.844 Q 18.109 37.203 18.109 27.297 Q 18.109 17.391 22.188 11.750 Q 26.266 6.1094 33.406 6.1094 Q 40.531 6.1094 44.609 11.750 Q 48.688 17.391 48.688 27.297 z M 18.109 46.391 Q 20.953 51.266 25.273 53.633 Q 29.594 56.000 35.594 56.000 Q 45.562 56.000 51.789 48.094 Q 58.016 40.188 58.016 27.297 Q 58.016 14.406 51.789 6.4922 Q 45.562 -1.4219 35.594 -1.4219 Q 29.594 -1.4219 25.273 .95312 Q 20.953 3.3281 18.109 8.2031 L 18.109 -0.0000 L 9.0781 -0.0000 L 9.0781 75.984 L 18.109 75.984 L 18.109 46.391 z"/>
+<glyph unicode="&#x0061;" horiz-adv-x="61.279" d="M 34.281 27.484 Q 23.391 27.484 19.188 25.000 Q 14.984 22.516 14.984 16.500 Q 14.984 11.719 18.141 8.9141 Q 21.297 6.1094 26.703 6.1094 Q 34.188 6.1094 38.703 11.406 Q 43.219 16.703 43.219 25.484 L 43.219 27.484 L 34.281 27.484 z M 52.203 31.203 L 52.203 -0.0000 L 43.219 -0.0000 L 43.219 8.2969 Q 40.141 3.3281 35.547 .95312 Q 30.953 -1.4219 24.312 -1.4219 Q 15.922 -1.4219 10.961 3.2969 Q 6.0000 8.0156 6.0000 15.922 Q 6.0000 25.141 12.180 29.828 Q 18.359 34.516 30.609 34.516 L 43.219 34.516 L 43.219 35.406 Q 43.219 41.609 39.141 45.000 Q 35.062 48.391 27.688 48.391 Q 23.000 48.391 18.555 47.266 Q 14.109 46.141 10.016 43.891 L 10.016 52.203 Q 14.938 54.109 19.578 55.055 Q 24.219 56.000 28.609 56.000 Q 40.484 56.000 46.344 49.852 Q 52.203 43.703 52.203 31.203 z"/>
+<glyph unicode="&#x002b;" horiz-adv-x="83.789" d="M 46.000 62.703 L 46.000 35.500 L 73.188 35.500 L 73.188 27.203 L 46.000 27.203 L 46.000 -0.0000 L 37.797 -0.0000 L 37.797 27.203 L 10.594 27.203 L 10.594 35.500 L 37.797 35.500 L 37.797 62.703 L 46.000 62.703 z"/>
+</font>
+
+</defs> 
+</g> 
+</svg> 
